@@ -22,7 +22,9 @@
 	</head>
 	<body <?php body_class(); ?>>
 <div id="nav-menu-wrap">
-  <nav id="nav-menu-container" class="centered">
+  <nav id="nav-menu" class="centered">
+    <a href="/" id="dlg-logo">
+      <img src="<?php bloginfo('template_url'); ?>/images/dlg_logo.png">
     <?php
       wp_nav_menu('Top Navigation');
     ?>
@@ -31,7 +33,7 @@
   </nav>
 </div>
 <div id="sub-menu-wrap">
-  <nav id="sub-menu-container" class="centered">
+  <nav id="sub-menu" class="centered">
     <?php //need to use javascript (quick solution) or
     //nav walker (proper solution) to bring child pages into this
     //sub menu bar ?>
