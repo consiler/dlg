@@ -24,24 +24,8 @@
 <div id="nav-menu-wrap">
   <nav id="nav-menu-container" class="centered">
     <?php
-              $defaults = array(
-                'theme_location'  => '',
-                'container'       => false,
-                'container_class' => '',
-                'container_id'    => '',
-                'menu_class'      => '',
-                'menu_id'         => '',
-                'echo'            => true,
-                'before'          => '',
-                'after'           => '',
-                'link_before'     => '',
-                'link_after'      => '',
-                'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                'depth'           => 0
-                //'walker'          => new HeaderWalker()
-              );
-              wp_nav_menu($defaults);
-              ?>
+      wp_nav_menu('Top Navigation');
+    ?>
     <div id="nav-menu-social-buttons">
     </div>
   </nav>

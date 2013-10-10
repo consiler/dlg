@@ -976,12 +976,71 @@ Verdana, Tahoma, Geneva, sans-serif - t
 }
 /** END WordPress-Defined CSS Classes **/
 
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    width:auto;
+    border:0 none;
+    margin:0;
+    padding:0;
+    background:transparent;
+    overflow:visible;
+    /* IE */
+    font:14px arial, sans-serif;
+    vertical-align:middle; /* IE6,IE7 */
+}
+
 /* Start Dialog CSS */
 
 html, body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
-   
+}
+a {
+    text-decoration: none;
 }
 
 /* use this for navmenu, submenu, slideshow, etc. */
@@ -994,9 +1053,45 @@ html, body {
     background-color: #ccc;
     height: 120px;
 }
+#nav-menu-wrap a {
+    color: #565653;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+}
 #sub-menu-wrap {
     background-color: #333;
     height: 30px;
+}
+#sub-menu-wrap a {
+    color: #565653;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+}
+
+.carousel-headline {
+    /* 25 Ultra Light */
+    letter-spacing: 0.060em;
+    color: #464e52;
+}
+.carousel-subheading {
+    /* 35 Thin */
+    letter-spacing: 0.040em;
+    color: #464e52;
+}
+
+.light-grey-button {
+    /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    letter-spacing: 0.255em;
+    color: #464e52;
+    background-color: #c4bfbf;
+    background-color: rgba(196, 191, 191, 0.3);
+    padding: 15px;
+    border-radius: 15px;
 }
 
 /* Add styles for markup in page.php and front-page.php */

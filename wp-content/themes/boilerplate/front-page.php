@@ -15,8 +15,8 @@ get_header(); ?>
   <div id="fp-slideshow-container">
     <?php //use bootstrap slideshow (customize) OR some other thing like slide.js ?>
     <div><?php //this div has fancy background ?>
-      <h2>Succeeding in an age of accelerating change and transparency.</h2>
-      <p>We operate in an age...</p>
+      <h2 class="carousel-headline">Succeeding in an age of accelerating change and transparency.</h2>
+      <p class="carousel-subheading">We operate in an age...</p>
       <?php //need to implement this global class ?>
       <a class="light-grey-button">Learn More</a>
     </div>
