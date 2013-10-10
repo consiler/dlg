@@ -1051,10 +1051,11 @@ a {
 
 #nav-menu-wrap {
     background-color: #ccc;
-    height: 70px;
+    background-image: url(images/nav-bg.gif);
 }
 #nav-menu {
     position: relative;
+    height: 71px;
 }
 #menu-top-navigation {
     overflow: hidden;
@@ -1076,15 +1077,25 @@ a {
     letter-spacing: 0.135em;
     text-transform: uppercase;
 }
+#nav-menu a:hover {
+    color: #156dc3;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+}
 #sub-menu-wrap {
     background-color: #333;
-    height: 25px;
+    background-image: url(images/sub-nav-bg.gif);
 }
 #sub-menu-wrap a {
     color: #565653;
     font-family: Arial, sans-serif;
     letter-spacing: 0.135em;
     text-transform: uppercase;
+}
+#sub-menu {
+    height: 27px;
 }
 
 .carousel-headline {
@@ -1106,15 +1117,15 @@ a {
     color: #464e52;
     background-color: #c4bfbf;
     background-color: rgba(196, 191, 191, 0.3);
-    padding: 15px;
-    border-radius: 15px;
+    line-height: 38px;
+    padding: 0 20px;
 }
 
 #dlg-logo {
     display: block;
     position: absolute;
     left: 18px;
-    top: 0;
+    top: -4px;
 }
 
 /* Add styles for markup in page.php and front-page.php */
