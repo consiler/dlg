@@ -972,13 +972,17 @@ Verdana, Tahoma, Geneva, sans-serif - t
 	top: 0;
 }
 #access ul li:hover > ul {
-	display: block;
+    display: block;
 }
 /** END WordPress-Defined CSS Classes **/
 
 /* Start Dialog CSS */
 
-/* Might want to copy and paste the typography from Bootstrap */
+html, body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   
+}
 
 /* use this for navmenu, submenu, slideshow, etc. */
 .centered {
