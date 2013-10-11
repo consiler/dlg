@@ -31,6 +31,9 @@
       wp_nav_menu('Top Navigation');
     ?>
     <div id="nav-menu-social-buttons">
+      <a href="https://twitter.com/" id="twitter"></a>
+      <a href="http://www.linkedin.com/company/409027?trk=prof-exp-company-name" id="linkedin"></a>
+      <a href="https://www.facebook.com/" id="facebook"></a>
     </div>
   </nav>
 </div>

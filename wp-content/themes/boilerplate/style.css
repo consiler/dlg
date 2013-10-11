@@ -1110,6 +1110,41 @@ p {
     box-shadow: 0px 7px 14.08px 1.92px rgba(0, 0, 0, 0.51); 
 }
 
+#nav-menu-social-buttons{
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 825px;
+    top: 37px;
+}
+
+#nav-menu-social-buttons a:hover{
+
+}
+
+#twitter{
+    width: 21px;
+    height: 22px;
+    float: left;
+    background-image: url(images/twitter.png);
+    margin-left: 6px;
+}
+
+#linkedin{
+    width: 21px;
+    height: 22px;
+    float: left;
+    background-image: url(images/linkedin.png);
+    margin-left: 6px;
+}
+
+#facebook{
+    width: 21px;
+    height: 22px;
+    float: left;
+    background-image: url(images/facebook.png);
+    margin-left: 6px;
+}
 
 #nav-menu-wrap {
     background-color: #ccc;
