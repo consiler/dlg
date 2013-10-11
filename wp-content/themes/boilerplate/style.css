@@ -1043,6 +1043,21 @@ button {
 
 /* Start Dialog CSS */
 
+/* Importing Fonts */
+@font-face {
+  font-family: hvnStd_UltLt;
+  src: url('fonts/HelveticaNeueLTStd-UltLt.otf');
+}
+@font-face {
+  font-family: hvnStd_Thin;
+  src: url('fonts/HelveticaNeueLTStd-ThCn.otf');
+}
+@font-face {
+  font-family: hvnStd_Lite;
+  src: url('fonts/HelveticaNeueLTStd-LtCn.otf');
+}
+
+
 html, body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
@@ -1120,16 +1135,16 @@ p {
     display: none;
 }
 #nav-menu a {
-    color: #565653;
+    color: #52524f;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 13px;
     letter-spacing: 0.135em;
     text-transform: uppercase;
 }
 #nav-menu a:hover {
     color: #156dc3;
     font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 13px;
     letter-spacing: 0.135em;
     text-transform: uppercase;
     text-shadow: 0px 0px 3px rgba(255,255,255,0.9);
@@ -1213,11 +1228,15 @@ p {
     padding-top: 40px;
 }
 #internal-header-text > h3 {
+    font-family: hvnStd_UltLt;
     color: #b4c1cf;
     font-size: 36pt;
 }
 #internal-header-text > p {
+    font-family: hvnStd_Thin;
+    font-size: 16px;
     color: #fff;
+    letter-spacing: .04em;
 }
 #internal-banner-image {
     float: right;
@@ -1251,8 +1270,10 @@ p {
 }
 #internal-main-content h4 {
     color: #5197b4;
+    font-family: hvnStd_Lite;
     font-size: 20pt;
     padding-top: 25px;
+    letter-spacing: .04em;
 }
 #internal-main-content p {
     padding: 5px 0;
