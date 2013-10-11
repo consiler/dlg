@@ -1138,6 +1138,14 @@ p {
 
 /* Front Page Slideshow */
 
+#fp-slideshow-wrap {
+    background-color: #efefef;
+}
+#fp-slideshow-container {
+    height: 455px;
+    background-image: url(images/carousel-placeholder.jpg);
+}
+
 .carousel-headline {
     /* 25 Ultra Light */
     letter-spacing: 0.060em;
@@ -1147,6 +1155,28 @@ p {
     /* 35 Thin */
     letter-spacing: 0.040em;
     color: #464e52;
+}
+
+/* Front Page Testimonials */
+
+#fp-testimonials {
+    overflow: hidden;
+}
+#fp-testimonials-seemore {
+    float: left;
+    width: 265px;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+#fp-testimonials-seemore p {
+    color: #5684b2;
+}
+#fp-testimonials-seemore button {
+    margin-top: 15px;
+}
+#fp-testimonials-logos {
+    float: right;
+    width: 524px;
 }
 
 /* Internal Page */

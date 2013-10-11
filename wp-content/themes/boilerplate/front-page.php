@@ -12,26 +12,27 @@ get_header(); ?>
 <?php //New Front Page Code ?>
 
 <div id="fp-slideshow-wrap">
-  <div id="fp-slideshow-container">
+  <div id="fp-slideshow-container" class="centered">
     <?php //use bootstrap slideshow (customize) OR some other thing like slide.js ?>
     <div><?php //this div has fancy background ?>
+    <!--
       <h2 class="carousel-headline">Succeeding in an age of accelerating change and transparency.</h2>
       <p class="carousel-subheading">We operate in an age...</p>
       <?php //need to implement this global class ?>
-      <a class="light-grey-button">Learn More</a>
+      <a class="light-grey-button">Learn More</a>-->
     </div>
   </div>
 </div>
 <div id="fp-testimonials-wrap">
-<div id="fp-testimonails-container">
+<div id="fp-testimonials" class="centered">
     <div id="fp-testimonials-seemore">
       <p>We have worked with a range of clients from startups to Fortune 500 companies to help them solve a wide range of problems.
       </p>
-      <a class="light-grey-button">Full Testimonials</a>
+      <button class="light-grey-button">Full Testimonials</button>
     </div>
     <div id="fp-testimonials-logos">
-      <?php //put an image w/ white bg and all the logos, simple ?>
-      <button>-><?php //arrow button, may indicate that this is a slideshow of images with logos ?></button>
+      <img src="<?php bloginfo('template_url'); ?>/images/testimonials-client-logos.jpg">
+      <button><?php //arrow button, may indicate that this is a slideshow of images with logos ?></button>
     </div>
   </div>
 </div>
