@@ -17,11 +17,11 @@ get_header(); ?>
   <div id="internal-header-wrap">
     <div id="internal-header" class="centered">
       <header id="internal-header-text">
-        <h3>It's not what we do, but how we do it, that delivers results.</h3>
-        <p>We work as an extension of our clients...</p>
+        <h3><?php the_field('page_heading_text'); ?></h3>
+        <p><?php the_field('page_subheading_text'); ?></p>
       </header>
       <div id="internal-banner-image">
-        <img src="<?php bloginfo('template_url'); ?>/images/stock-man-working.jpg">
+        <img src="<?php the_field('page_heading_image'); ?>">
       </div>
     </div>
   </div>
@@ -36,10 +36,9 @@ get_header(); ?>
           </ul>
         </nav>
         <article id="internal-main-content">
-          <h4>Something important</h4>
-          <p>Something about that important thing</p>
-          <h4>Lorem Ipsum</h4>
-          <p>Sit amet sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text</p>
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+          <?php the_content(); ?>
+        <?php endwhile; ?>
         </article>
       </div>
       <aside id="internal-sidebar">
