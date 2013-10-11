@@ -28,26 +28,28 @@ get_header(); ?>
   <div id="internal-lower-wrap">
     <div id="internal-lower" class="centered">
       <div id="internal-main">
-        <div id="internal-main-body">
-          <nav id="internal-main-nav">
-          </nav>
-          <div id="internal-main-content">
-            <article class="blah">
-            </article>
-            <?php //OR ?>
-            <h4>Something important</h4>
-            <p>Something about that important thing</p>
-          </div>
-        </div>
+        <nav id="internal-main-nav">
+          <ul>
+            <li><a href="#something">Purpose and Performance</a></li>
+            <li><a href="#something">Insights and Analytics</a></li>
+            <li><a href="#something">Growth Strategy</a></li>
+          </ul>
+        </nav>
+        <article id="internal-main-content">
+          <h4>Something important</h4>
+          <p>Something about that important thing</p>
+          <h4>Lorem Ipsum</h4>
+          <p>Sit amet sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text</p>
+        </article>
       </div>
       <aside id="internal-sidebar">
         <?php //the following divs can be styled as is, but we should make them into wordpress widgets or custom post types ?>
         <div id="internal-sidebar-detour-link">
           <h4>Dell partnered with Dialog...</h4>
-          <button class="light-grey-button">Read the case study</button>
+          <button class="lighter-grey-button">Read the case study</button>
         </div>
         <div id="internal-sidebar-decoration">
-          <?php //put a fancy geometry image or something here ?>
+          <?php //put a fancy geometry background here ?>
         </div>
       </aside>
     </div>
