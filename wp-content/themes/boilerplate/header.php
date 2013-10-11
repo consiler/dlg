@@ -24,7 +24,9 @@
 <div id="nav-menu-wrap">
   <nav id="nav-menu" class="centered">
     <a href="<?php bloginfo('wpurl'); ?>" id="dlg-logo">
-      <img src="<?php bloginfo('template_url'); ?>/images/dlg_logo.png">
+      <div id="dlg-logo-top"></div>
+      <div id="dlg-logo-bottom"></div>
+    </a>
     <?php
       wp_nav_menu('Top Navigation');
     ?>
