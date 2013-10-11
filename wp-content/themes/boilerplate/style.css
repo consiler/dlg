@@ -1031,6 +1031,14 @@ button {
     /* IE */
     font:14px arial, sans-serif;
     vertical-align:middle; /* IE6,IE7 */
+    /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    /*letter-spacing: 0.255em;*/
+    letter-spacing: 0.07em;
+    color: #464e52;
+    line-height: 38px;
+    padding: 0 20px;
 }
 
 /* Start Dialog CSS */
@@ -1038,15 +1046,33 @@ button {
 html, body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
+   height: 100%;
 }
 a {
     text-decoration: none;
+}
+p {
+    color: #787878;
 }
 
 /* use this for navmenu, submenu, slideshow, etc. */
 .centered {
     width: 1024px;
     margin: 0 auto;
+}
+.light-grey-button {
+    background-color: #c4bfbf;
+    background-color: rgba(196, 191, 191, 0.3);
+}
+.
+
+/* Top Navigation */
+
+#dlg-logo {
+    display: block;
+    position: absolute;
+    left: 18px;
+    top: -4px;
 }
 
 #nav-menu-wrap {
@@ -1098,6 +1124,8 @@ a {
     height: 27px;
 }
 
+/* Front Page Slideshow */
+
 .carousel-headline {
     /* 25 Ultra Light */
     letter-spacing: 0.060em;
@@ -1109,23 +1137,62 @@ a {
     color: #464e52;
 }
 
-.light-grey-button {
-    /* 55 Romain */
-    text-transform: uppercase;
-    font-size: 10pt;
-    letter-spacing: 0.255em;
-    color: #464e52;
-    background-color: #c4bfbf;
-    background-color: rgba(196, 191, 191, 0.3);
-    line-height: 38px;
-    padding: 0 20px;
+/* Internal Page */
+
+#internal-header-wrap {
+    height: 236px;
+    background-color: #0c5778;
+}
+#internal-header {
+    overflow: hidden;
+}
+#internal-header-text {
+    float: left;
+    width: 570px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
+#internal-header-text > h3 {
+    color: #b4c1cf;
+    font-size: 36pt;
+}
+#internal-header-text > p {
+    color: #fff;
+}
+#internal-banner-image {
+    float: right;
+    width: 266px;
+}
+#internal-banner-image img {
+    display: block;
 }
 
-#dlg-logo {
-    display: block;
-    position: absolute;
-    left: 18px;
-    top: -4px;
+#internal-lower {
+    overflow: hidden;
+}
+#internal-main {
+    float: left;
+    width: 750px;
+}
+#internal-main-header {
+    padding-left: 180px;
+}
+#internal-sidebar {
+    float: right;
+    width: 262px;
+    background-color: #ebeae6;
+    height: 100%;
+}
+#internal-sidebar-detour-link {
+    height: 146px;
+    padding: 0 25px;
+    padding-top: 35px;
+    background-image: url(images/sidebar-detour-green.gif);
+}
+#internal-sidebar-detour-link > h4 {
+    color: #5a5b5b;
+    font-size: 20pt;
+    margin-bottom: 15px;
 }
 
 /* Add styles for markup in page.php and front-page.php */
