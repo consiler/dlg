@@ -25,20 +25,28 @@ get_header(); ?>
       </div>
     </div>
   </div>
+  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div id="internal-lower-wrap">
     <div id="internal-lower" class="centered">
       <div id="internal-main">
         <nav id="internal-main-nav">
           <ul>
-            <li><a href="#something">Purpose and Performance</a></li>
-            <li><a href="#something">Insights and Analytics</a></li>
-            <li><a href="#something">Growth Strategy</a></li>
+            <?php
+              $all_pages = get_pages();
+              $children = get_page_children(get_the_ID(), $all_pages);
+              foreach($children as $child)
+              {
+                $child_href = get_page_link($child->ID);
+                $child_title = $child->post_title;
+                ?>
+                  <li><a href="<?php echo $child_href; ?>"><?php echo $child_title; ?></a></li>
+                <?php
+              }
+            ?>
           </ul>
         </nav>
         <article id="internal-main-content">
-        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-          <?php the_content(); ?>
-        <?php endwhile; ?>
+          <?php the_content(get_the_ID()); ?>
         </article>
       </div>
       <aside id="internal-sidebar">
@@ -53,5 +61,6 @@ get_header(); ?>
       </aside>
     </div>
   </div>
+  <?php endwhile; ?>
 </div>
 <?php get_footer(); ?>

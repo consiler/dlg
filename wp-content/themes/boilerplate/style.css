@@ -1229,8 +1229,9 @@ p {
 }
 #internal-main-content {
     float: right;
-    width: 582px;
+    width: 552px;
     padding-top: 10px;
+    padding-right: 30px;
 }
 #internal-main-content h4 {
     color: #5197b4;
