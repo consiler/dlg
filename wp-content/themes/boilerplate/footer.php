@@ -11,6 +11,7 @@
  */
 ?>
 		</section><!-- #main -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/retina.js/js/retina-1.1.0.min.js"></script>
 <?php
 	/* Always have wp_footer() just before the closing </body>
 	 * tag of your theme, or you will break many plugins, which
