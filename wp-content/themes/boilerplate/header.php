@@ -23,7 +23,7 @@
 	<body <?php body_class(); ?>>
 <div id="nav-menu-wrap">
   <nav id="nav-menu" class="centered">
-    <a href="/" id="dlg-logo">
+    <a href="<?php bloginfo('wpurl'); ?>" id="dlg-logo">
       <img src="<?php bloginfo('template_url'); ?>/images/dlg_logo.png">
     <?php
       wp_nav_menu('Top Navigation');
