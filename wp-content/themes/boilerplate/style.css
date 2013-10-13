@@ -1062,6 +1062,16 @@ html, body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    height: 100%;
+   min-height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -165px; /* the bottom margin is the negative value of the footer's height */
+}
+.push {
+  height: 165px;
 }
 a {
     text-decoration: none;
@@ -1359,23 +1369,31 @@ p {
     padding-bottom: 15px;
 }
 
+/* Used on pages with no sidebar */
+.internal-main-content-fullwidth {
+    width: 814px;
+}
+.internal-main-fullwidth {
+    width: 1024px;
+}
+
 /* Internal Sidebar */
 #internal-sidebar {
-    float: right;
-    width: 262px;
-    background-color: #ebeae6;
-    height: 100%;
+  float: right;
+  width: 262px;
+  background-color: #ebeae6;
+  height: 100%;
 }
 #internal-sidebar-detour-link {
-    height: 146px;
-    padding: 0 25px;
-    padding-top: 35px;
-    background-image: url(images/sidebar-detour-green.gif);
+  height: 146px;
+  padding: 0 25px;
+  padding-top: 35px;
+  background-image: url(images/sidebar-detour-green.gif);
 }
 #internal-sidebar-detour-link > h4 {
-    color: #5a5b5b;
-    font-size: 20pt;
-    margin-bottom: 15px;
+  color: #5a5b5b;
+  font-size: 20pt;
+  margin-bottom: 15px;
 }
 
 /* End Internal Lower */
@@ -1387,11 +1405,17 @@ p {
  *****************************************************************************/
 
 .footer-wrap {
-  background-image: url(/images/footer_bg.png);
+  background-image: url(images/footer_bg.jpg);
+  background-position: center;
+}
+
+.footer-wrap .sub-menu {
+  display: none;
 }
 
 .footer-wrap .footer-inner {
-  padding: 20px 0 300px 0;
+  height: 145px;
+  padding: 20px 0 0 0;
 }
 
 .footer-wrap .footer-menu-wrap ul {

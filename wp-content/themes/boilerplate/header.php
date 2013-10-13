@@ -24,6 +24,7 @@
 ?>
 	</head>
 	<body <?php body_class(); ?>>
+<div id="wrapper">
 <div id="nav-menu-wrap">
   <nav id="nav-menu" class="centered">
     <a href="<?php bloginfo('wpurl'); ?>" id="dlg-logo">

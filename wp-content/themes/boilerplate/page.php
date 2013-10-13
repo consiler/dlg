@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: One column, no sidebar
+ * Template Name: Main Page Template
  *
- * A custom page template without sidebar.
+ * A custom page template with an optional sidebar.
  *
  * The "Template Name:" bit above allows this to be selectable
  * from a dropdown menu on the edit page screen.
@@ -28,7 +28,7 @@ get_header(); ?>
   <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <div id="internal-lower-wrap">
     <div id="internal-lower" class="centered">
-      <div id="internal-main">
+      <div id="internal-main"<?php if(!get_field('has_sidebar')){ ?> class="internal-main-fullwidth"<?php } ?>>
         <nav id="internal-main-nav">
           <ul>
             <?php
@@ -45,10 +45,11 @@ get_header(); ?>
             ?>
           </ul>
         </nav>
-        <article id="internal-main-content">
+        <article id="internal-main-content"<?php if(!get_field('has_sidebar')){ ?> class="internal-content-fullwidth"<?php } ?>>
           <?php the_content(get_the_ID()); ?>
         </article>
       </div>
+      <?php if(get_field('has_sidebar')){ ?>
       <aside id="internal-sidebar">
         <?php if(get_field('detour_link_heading')){ ?>
         <div id="internal-sidebar-detour-link">
@@ -60,6 +61,7 @@ get_header(); ?>
           <?php //put a fancy geometry background here ?>
         </div>
       </aside>
+      <?php } ?>
     </div>
   </div>
   <?php endwhile; ?>
