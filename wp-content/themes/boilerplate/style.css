@@ -1374,6 +1374,7 @@ span.lighter-grey-button {
     width: 140px;
     padding-top: 40px;
     padding-right: 40px;
+    padding-bottom: 40px;
 }
 #internal-main-nav > ul > li > a {
     color: #7e7e7d;
@@ -1386,10 +1387,10 @@ span.lighter-grey-button {
 
 /* Used on pages with no sidebar */
 .internal-main-content-fullwidth {
-    width: 814px;
+    width: 814px!important;
 }
 .internal-main-fullwidth {
-    width: 1024px;
+    width: 1024px!important;
 }
 
 /* Internal Sidebar */
