@@ -1,20 +1,29 @@
 <?php
-/**
- * The template for displaying 404 pages (Not Found).
- *
- * @package WordPress
- * @subpackage Boilerplate
- * @since Boilerplate 1.0
- */
 
 get_header(); ?>
-			<article id="post-0" class="post error404 not-found" role="main">
-				<h1><?php _e( 'Not Found', 'boilerplate' ); ?></h1>
-				<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'boilerplate' ); ?></p>
-				<?php
-					get_search_form();
-					// add focus to search <input>
-					echo '<script>document.getElementById(\'s\') && document.getElementById(\'s\').focus();</script>'.PHP_EOL;
-				?>
-			</article>
+<div id="internal-wrap">
+  <div id="internal-header-wrap">
+    <div id="internal-header" class="centered">
+      <header id="internal-header-text">
+        <h3>404 File Not Found</h3>
+        <p>This page requested does not exist.</p>
+      </header>
+      <div id="internal-banner-image">
+        <img src="">
+      </div>
+    </div>
+  </div>
+  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+  <div id="internal-lower-wrap">
+    <div id="internal-lower" class="centered">
+      <div id="internal-main">
+        <nav id="internal-main-nav">
+        </nav>
+        <article id="internal-main-content">
+        </article>
+      </div>
+    </div>
+  </div>
+  <?php endwhile; ?>
+</div>
 <?php get_footer(); ?>
