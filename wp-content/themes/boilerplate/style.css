@@ -1385,3 +1385,61 @@ p {
 /* End Internal Lower */
 
 /* Add styles for markup in page.php and front-page.php */
+
+/******************************************************************************
+ * Footer Nav
+ *****************************************************************************/
+
+.footer-wrap {
+  background-image: url(/images/footer_bg.png);
+}
+
+.footer-wrap .footer-inner {
+  padding: 20px 0 300px 0;
+}
+
+.footer-wrap .footer-menu-wrap ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-wrap .footer-menu-wrap li {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-wrap #menu-footer-navigation {
+  text-align: center;
+}
+
+.footer-wrap #menu-footer-navigation > li {
+  display: inline-block;
+  width: 8%;
+  height: 150px;
+  padding: 0 1% 30px 1%;
+  text-align: left;
+  word-wrap: break-word;
+  vertical-align: middle;
+  border-right: 1px solid #444;
+  border-left: 1px solid #222;
+}
+
+.footer-wrap #menu-footer-navigation > li:first-child {
+  border-left: 2px solid #444;
+}
+
+.footer-wrap #menu-footer-navigation > li:last-child {
+  border-right: 2px solid #444;
+}
+
+.footer-wrap #menu-footer-navigation > li > a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-wrap #menu-footer-navigation .sub-menu > li > a {
+  font-size: 11px;
+  color: #ccc;
+}
