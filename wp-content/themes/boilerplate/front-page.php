@@ -13,6 +13,20 @@ get_header(); ?>
 
 <div id="fp-slideshow-wrap">
   <div id="fp-slideshow-container" class="centered">
+  <script type="text/javascript">
+     $(window).load(function() {
+         $('#featured').orbit({
+          animation: 'fade'
+         });
+     });
+</script>
+    <div id="featured"> 
+      <img src="<?php bloginfo('template_url'); ?>/images/fp_slides/1.jpg">
+      <img src="<?php bloginfo('template_url'); ?>/images/fp_slides/2.jpg">
+      <img src="<?php bloginfo('template_url'); ?>/images/fp_slides/2.jpg">
+    </div>
+      
+  </div>
     <?php //use bootstrap slideshow (customize) OR some other thing like slide.js ?>
     <div><?php //this div has fancy background ?>
     <!--
@@ -36,18 +50,3 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
-<?php /* Everything below this is code from the base theme. Might prune it later. */ ?>
-<!--
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
-        <h1><?php the_title(); ?></h1>
-        <?php the_content(); ?>
-        <?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'boilerplate' ), 'after' => '' ) ); ?>
-        <?php edit_post_link( __( 'Edit', 'boilerplate' ), '', '' ); ?>
-
-        <?php comments_template( '', true ); ?>
-
-<?php endwhile; ?>
--->
-<?php get_footer(); ?>
