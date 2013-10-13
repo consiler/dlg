@@ -12,11 +12,11 @@
 ?>
 		</section><!-- #main -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/retina.js/js/retina-1.1.0.min.js"></script>
-<?php
-	/* Always have wp_footer() just before the closing </body>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to reference JavaScript files.
-	 */
+
+    <div class="footer-wrap">
+      <div class="footer-inner">
+        <div class="footer-menu-wrap">
+          <?php
           $footer_defaults = array(
             'theme_location'  => 'footer-menu',
             'menu'            => '.footer-menu',
@@ -35,6 +35,18 @@
             'depth'           => 0,
           );
           wp_nav_menu( $footer_defaults );
+          ?>
+        </div>
+      </div>
+    </div>
+
+
+
+<?php
+	/* Always have wp_footer() just before the closing </body>
+	 * tag of your theme, or you will break many plugins, which
+	 * generally use this hook to reference JavaScript files.
+	 */
 	wp_footer();
 ?>
 	</body>
