@@ -1094,7 +1094,7 @@ p {
     position: absolute;
     left: 18px;
     top: -4px;
-    z-index: 3;
+    z-index: 13;
 }
 
 #dlg-logo-top {
@@ -1150,7 +1150,7 @@ p {
     background-color: #ccc;
     background-image: url(images/nav-bg.gif);
     position: relative;
-    z-index: 2;
+    z-index: 12;
 }
 #nav-menu {
     position: relative;
@@ -1189,7 +1189,7 @@ p {
     background-image: url(images/sub-nav-bg.gif);
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.8);
     position: relative;
-    z-index: 1;
+    z-index: 11;
     box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
 }
 #sub-menu-wrap a {
@@ -1209,7 +1209,7 @@ p {
 }
 #fp-slideshow-container {
     height: 455px;
-    background-image: url(images/carousel-placeholder.jpg);
+    /*background-image: url(images/carousel-placeholder.jpg);*/
 }
 
 .carousel-headline {
@@ -1221,6 +1221,10 @@ p {
     /* 35 Thin */
     letter-spacing: 0.040em;
     color: #464e52;
+}
+
+#slides {
+    display: none;
 }
 
 /* Front Page Testimonials */

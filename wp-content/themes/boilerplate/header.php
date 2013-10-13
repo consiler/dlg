@@ -14,7 +14,10 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title>Dialog Group - Need Page Specific Titles</title>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
 <?php
 		//If you delete this line, the wordpress admin menu will not appear at the top of the page
 		wp_head();
