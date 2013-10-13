@@ -14,7 +14,8 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title>Dialog Group - Need Page Specific Titles</title>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--<script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>-->
     <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
@@ -22,6 +23,21 @@
 		//If you delete this line, the wordpress admin menu will not appear at the top of the page
 		wp_head();
 ?>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44776256-1']);
+  _gaq.push(['_setDomainName', 'dialoggroup.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 	</head>
 	<body <?php body_class(); ?>>
 <div id="wrapper">

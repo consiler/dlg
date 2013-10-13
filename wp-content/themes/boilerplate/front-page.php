@@ -46,7 +46,7 @@ brand, value, and user experience.</p>
           combines high-level strategic insight and robust <br>
           tactical expertise to deliver strategy at the <br>speed of digital.</p>
           <p class="carousel-subheading carousel-subheading-bold">Domination requires transformation.<br>Are you prepared?</p> 
-          <button class="lighter-grey-button">Learn More</button>
+          <a href="practice-areas/digital-experiences/"><span class="lighter-grey-button">Learn More</span></a>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ brand, value, and user experience.</p>
     <div id="fp-testimonials-seemore">
       <p>We have worked with a range of clients from startups to Fortune 500 companies to help them solve a wide range of problems.
       </p>
-      <button class="light-grey-button">Full Testimonials</button>
+      <span class="light-grey-button">Full Testimonials</span>
     </div>
     <div id="fp-testimonials-logos">
       <img src="<?php bloginfo('template_url'); ?>/images/testimonials-client-logos.jpg">

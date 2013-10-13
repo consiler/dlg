@@ -1031,14 +1031,6 @@ button {
     /* IE */
     font:14px arial, sans-serif;
     vertical-align:middle; /* IE6,IE7 */
-    /* 55 Romain */
-    text-transform: uppercase;
-    font-size: 10pt;
-    /*letter-spacing: 0.255em;*/
-    letter-spacing: 0.07em;
-    color: #464e52;
-    line-height: 38px;
-    padding: 0 20px;
 }
 
 /* Start Dialog CSS */
@@ -1081,16 +1073,28 @@ p {
     color: #787878;
 }
 
+
 /* use this for navmenu, submenu, slideshow, etc. */
 .centered {
     width: 1024px;
     margin: 0 auto;
 }
-.light-grey-button {
+span {
+  display: inline-block;
+   /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    /*letter-spacing: 0.255em;*/
+    letter-spacing: 0.07em;
+    color: #464e52;
+    line-height: 38px;
+    padding: 0 20px;
+}
+span.light-grey-button {
     background-color: #c4bfbf;
     background-color: rgba(196, 191, 191, 0.3);
 }
-.lighter-grey-button {
+span.lighter-grey-button {
     background-color: #ebeaea;
     background-color: rgba(235, 234, 234, 0.7);
 }
@@ -1238,7 +1242,7 @@ p {
     top: 100px;
     left: 185px;
 }
-.carousel-headline-wrap > button {
+.carousel-headline-wrap > span {
     margin-top: 30px;
 }
 .carousel-headline {
@@ -1278,7 +1282,7 @@ p {
 #fp-testimonials-seemore p {
     color: #5684b2;
 }
-#fp-testimonials-seemore button {
+#fp-testimonials-seemore span {
     margin-top: 15px;
 }
 #fp-testimonials-logos {

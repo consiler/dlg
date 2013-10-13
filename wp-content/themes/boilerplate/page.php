@@ -54,7 +54,7 @@ get_header(); ?>
         <?php if(get_field('detour_link_heading')){ ?>
         <div id="internal-sidebar-detour-link">
           <h4><?php the_field('detour_link_heading'); ?></h4>
-          <a href="<?php the_field('detour_link_page'); ?>"><button class="lighter-grey-button"><?php the_field('detour_link_cta'); ?></button></a>
+          <a href="<?php the_field('detour_link_page'); ?>"><span class="lighter-grey-button"><?php the_field('detour_link_cta'); ?></span></a>
         </div>
         <?php } ?>
         <div id="internal-sidebar-decoration">

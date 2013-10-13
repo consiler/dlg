@@ -635,4 +635,18 @@ endif;
 
 /*	End Boilerplate */
 
+add_action( 'init', 'create_frontpage_slides' );
+function create_frontpage_slides() {
+	register_post_type( 'frontpage_slides',
+		array(
+			'labels' => array(
+				'name' => __( 'Front Page Slides' ),
+				'singular_name' => __( 'Front Page Slide' )
+			),
+		'public' => true,
+		'has_archive' => false
+		)
+	);
+}
+
 ?>
