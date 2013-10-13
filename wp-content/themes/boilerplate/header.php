@@ -42,8 +42,11 @@
 </div>
 <div id="sub-menu-wrap">
   <nav id="sub-menu" class="centered">
-    <?php //need to use javascript (quick solution) or
-    //nav walker (proper solution) to bring child pages into this
-    //sub menu bar ?>
+  <?php
+    if(is_front_page()){
+      ?>
+      <div><a href="/overview">Overview</a></div>
+      <?php
+    } ?>
   </nav>
 </div>

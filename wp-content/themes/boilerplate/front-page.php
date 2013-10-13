@@ -9,20 +9,18 @@
 
 get_header(); ?>
 
-<?php //New Front Page Code ?>
-
 <div id="fp-slideshow-wrap">
   <div id="fp-slideshow-container" class="centered">
-  <script type="text/javascript">
-     $(window).load(function() {
-         $('#featured').orbit({
-          animation: 'fade',
-          bullets: true,
-          directionalNav: false,
-          advanceSpeed: 5000
-         });
-     });
-</script>
+    <script type="text/javascript">
+       $(window).load(function() {
+           $('#featured').orbit({
+            animation: 'fade',
+            bullets: true,
+            directionalNav: false,
+            advanceSpeed: 5000
+           });
+       });
+    </script>
     <div id="featured">
       <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/1.jpg);">
         <div class="carousel-headline-wrap">
@@ -31,7 +29,6 @@ get_header(); ?>
 big changes in your markets and customers. Leadership in <br>
 the new century requires equally bold ideas about building <br>
 brand, value, and user experience.</p>
-          <?php //need to implement this global class ?>
         </div>
       </div>
       <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/2.jpg);">
@@ -40,7 +37,6 @@ brand, value, and user experience.</p>
           <p class="carousel-subheading">Dialog is a professional services firm that <br>
           combines high-level strategic insight and robust <br>
           tactical expertise to deliver strategy at the <br>speed of digital.</p>
-          <?php //need to implement this global class ?>
         </div>
       </div>
       <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/3.jpg);">
@@ -50,7 +46,6 @@ brand, value, and user experience.</p>
           combines high-level strategic insight and robust <br>
           tactical expertise to deliver strategy at the <br>speed of digital.</p>
           <p class="carousel-subheading carousel-subheading-bold">Domination requires transformation.<br>Are you prepared?</p> 
-          <?php //need to implement this global class ?>
           <button class="lighter-grey-button">Learn More</button>
         </div>
       </div>
@@ -58,7 +53,7 @@ brand, value, and user experience.</p>
   </div>
 </div>
 <div id="fp-testimonials-wrap">
-<div id="fp-testimonials" class="centered">
+  <div id="fp-testimonials" class="centered">
     <div id="fp-testimonials-seemore">
       <p>We have worked with a range of clients from startups to Fortune 500 companies to help them solve a wide range of problems.
       </p>
@@ -70,3 +65,5 @@ brand, value, and user experience.</p>
     </div>
   </div>
 </div>
+
+<?php get_footer(); ?>

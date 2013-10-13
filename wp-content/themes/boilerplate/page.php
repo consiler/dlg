@@ -50,11 +50,12 @@ get_header(); ?>
         </article>
       </div>
       <aside id="internal-sidebar">
-        <?php //the following divs can be styled as is, but we should make them into wordpress widgets or custom post types ?>
+        <?php if(get_field('detour_link_heading')){ ?>
         <div id="internal-sidebar-detour-link">
-          <h4>Dell partnered with Dialog...</h4>
-          <button class="lighter-grey-button">Read the case study</button>
+          <h4><?php the_field('detour_link_heading'); ?></h4>
+          <a href="<?php the_field('detour_link_page'); ?>"><button class="lighter-grey-button"><?php the_field('detour_link_cta'); ?></button></a>
         </div>
+        <?php } ?>
         <div id="internal-sidebar-decoration">
           <?php //put a fancy geometry background here ?>
         </div>
