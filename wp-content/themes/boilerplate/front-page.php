@@ -29,7 +29,7 @@ get_header(); ?>
         'posts_per_page' => -1,
         'orderby' => 'title',
         'order' => 'ASC',
-        'caller_get_posts'=> 1
+        'ignore_sticky_posts'=> 1
       );
  
       $my_query = null;
