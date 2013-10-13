@@ -6,7 +6,7 @@ get_header(); ?>
     <div id="internal-header" class="centered">
       <header id="internal-header-text">
         <h3>404 File Not Found</h3>
-        <p>This page requested does not exist.</p>
+        <p>The requested page does not exist.</p>
       </header>
       <div id="internal-banner-image">
         <img src="">
