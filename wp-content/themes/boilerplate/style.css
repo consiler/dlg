@@ -1082,8 +1082,8 @@ p {
     width: 1024px;
     margin: 0 auto;
 }
-span {
-  display: inline-block;
+span.light-grey-button {
+    display: inline-block;
    /* 55 Romain */
     text-transform: uppercase;
     font-size: 10pt;
@@ -1092,12 +1092,19 @@ span {
     color: #464e52;
     line-height: 38px;
     padding: 0 20px;
-}
-span.light-grey-button {
     background-color: #c4bfbf;
     background-color: rgba(196, 191, 191, 0.3);
 }
 span.lighter-grey-button {
+    display: inline-block;
+   /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    /*letter-spacing: 0.255em;*/
+    letter-spacing: 0.07em;
+    color: #464e52;
+    line-height: 38px;
+    padding: 0 20px;
     background-color: #ebeaea;
     background-color: rgba(235, 234, 234, 0.7);
 }

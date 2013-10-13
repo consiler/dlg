@@ -34,8 +34,12 @@ get_header(); ?>
  
       $my_query = null;
       $my_query = new WP_Query($args);
+      $testgroup = "A";
+      if($_GET['bgroup']){ $testgroup = "B"; }
       if( $my_query->have_posts() ) {
-        while ($my_query->have_posts()) : $my_query->the_post(); $id = get_the_ID(); ?>
+        while ($my_query->have_posts()) : $my_query->the_post(); $id = get_the_ID();
+        if(get_field('test_group', $id) == $testgroup){
+        ?>
           <div style="background-image: url(<?php the_field('slide_image', $id); ?>);">
             <div class="carousel-headline-wrap">
               <h2 class="carousel-headline"><?php the_field('slide_title', $id); ?></h2>
@@ -46,6 +50,7 @@ get_header(); ?>
             </div>
           </div>
           <?php
+        }
         endwhile;
       }
       wp_reset_query();
