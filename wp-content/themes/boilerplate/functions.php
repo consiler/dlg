@@ -470,20 +470,6 @@ if ( ! function_exists( 'boilerplate_remove_recent_comments_style' ) ) :
 endif;
 add_action( 'widgets_init', 'boilerplate_remove_recent_comments_style' );
 
-add_action( 'init', 'create_post_type' );
-function create_post_type() {
-	register_post_type( 'sidebar_detour_link',
-		array(
-			'labels' => array(
-				'name' => __( 'Sidebar Detour Links' ),
-				'singular_name' => __( 'Sidebar Detour Link' )
-			),
-		'public' => true,
-		'has_archive' => true,
-		)
-	);
-}
-
 if ( ! function_exists( 'boilerplate_posted_on' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post—date/time and author.
@@ -643,8 +629,9 @@ function create_frontpage_slides() {
 				'name' => __( 'Front Page Slides' ),
 				'singular_name' => __( 'Front Page Slide' )
 			),
-		'public' => true,
-		'has_archive' => false
+		'public' => false,
+		'has_archive' => false,
+		'show_ui' => true
 		)
 	);
 }
