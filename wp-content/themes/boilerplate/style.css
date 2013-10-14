@@ -1477,6 +1477,27 @@ span.lighter-grey-button {
   position: relative;
 }
 
+.copyright {
+    position: absolute;
+    left: 853px;
+    top: 65px;
+}
+
+.copyright hr{
+    border-color: #5b5b5c;
+    margin-bottom: 7px;
+}
+
+.copyright p{
+    font-size: 11.5px;
+  color: #33332f;
+}
+
+.copyright a{
+    font-size: 11.5px;
+  color: #33332f;
+}
+
 .footer-wrap .footer-menu-wrap #menu-dlg_footer {
     overflow: hidden;
     position: absolute;
@@ -1488,7 +1509,7 @@ span.lighter-grey-button {
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer > li {
   padding: 0;
-  margin-right: 70px;
+  margin-right: 50px;
   display: block;
   float: left;
 }
