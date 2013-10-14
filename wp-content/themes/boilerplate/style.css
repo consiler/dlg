@@ -1407,6 +1407,7 @@ p {
 .footer-wrap {
   background-image: url(images/footer_bg.jpg);
   background-position: center;
+
 }
 
 .footer-wrap .sub-menu {
@@ -1416,9 +1417,16 @@ p {
 .footer-wrap .footer-inner {
   height: 145px;
   padding: 20px 0 0 0;
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
 }
 
 .footer-wrap .footer-menu-wrap ul {
+    overflow: hidden;
+    position: absolute;
+    left: 180px;
+    top: 40px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1427,6 +1435,9 @@ p {
 .footer-wrap .footer-menu-wrap li {
   padding: 0;
   margin: 0;
+  display: block;
+  float: left;
+  width: 140px;
 }
 
 .footer-wrap #menu-footer-navigation {
@@ -1457,6 +1468,7 @@ p {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
+  font-family: Arial;
 }
 
 .footer-wrap #menu-footer-navigation .sub-menu > li > a {
