@@ -1350,6 +1350,7 @@ span.lighter-grey-button {
 
 #internal-lower {
     overflow: hidden;
+    padding-bottom: 60px;
 }
 
 /* Internal Main Content Area */
@@ -1375,6 +1376,7 @@ span.lighter-grey-button {
     list-style: disc outside none;
 }
 #internal-main-content ul li {
+    margin: 15px 0;
     margin-left: 20px;
 }
 #internal-main-content h4 {
