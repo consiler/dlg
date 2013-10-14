@@ -1145,9 +1145,6 @@ span.lighter-grey-button {
     float: right;
 }
 
-#nav-menu-social-buttons a:hover{
-
-}
 
 #twitter{
     width: 21px;
@@ -1171,6 +1168,18 @@ span.lighter-grey-button {
     float: left;
     background-image: url(images/facebook.png);
     margin-left: 6px;
+}
+
+#twitter:hover{
+background-image: url(images/twitter-h.png);
+}
+
+#linkedin:hover{
+background-image: url(images/linkedin-h.png);
+}
+
+#facebook:hover{
+background-image: url(images/facebook-h.png);
 }
 
 #nav-menu-wrap {
@@ -1501,7 +1510,7 @@ span.lighter-grey-button {
 .footer-wrap .footer-menu-wrap #menu-dlg_footer {
     overflow: hidden;
     position: absolute;
-    left: 180px;
+    left: 80px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1509,9 +1518,13 @@ span.lighter-grey-button {
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer > li {
   padding: 0;
-  margin-right: 50px;
+  margin-right: 65px;
   display: block;
   float: left;
+}
+
+.footer-wrap .footer-menu-wrap #menu-dlg_footer ul:last-child {
+  margin-left: 2px;
 }
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer > li > a {
