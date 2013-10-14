@@ -1324,7 +1324,15 @@ background-image: url(images/facebook-h.png);
 
 #internal-header-wrap {
     height: 236px;
-    background-color: #0c5778;
+    background: #045c83; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #045c83 25%, #023b55 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(25%,#045c83), color-stop(100%,#023b55)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #045c83 25%,#023b55 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #045c83 25%,#023b55 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#045c83', endColorstr='#023b55',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 #internal-header {
     overflow: hidden;
@@ -1386,12 +1394,6 @@ background-image: url(images/facebook-h.png);
 #internal-main-content ul li {
     margin: 15px 0;
     margin-left: 20px;
-}
-.flexslider .slides {
-    margin-left: 0!important;
-}
-.flexslider .slides .slide {
-    margin-left: 0!important;
 }
 #internal-main-content h4 {
     color: #5197b4;
@@ -1527,10 +1529,6 @@ background-image: url(images/facebook-h.png);
   margin-right: 65px;
   display: block;
   float: left;
-}
-
-.footer-wrap .footer-menu-wrap #menu-dlg_footer ul:last-child {
-  margin-left: 2px;
 }
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer > li > a {
