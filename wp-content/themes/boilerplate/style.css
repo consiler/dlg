@@ -1367,6 +1367,15 @@ span.lighter-grey-button {
     padding-top: 10px;
     padding-right: 30px;
 }
+#internal-main-content b {
+    font-weight: bold;
+}
+#internal-main-content ul {
+    list-style: disc outside none;
+}
+#internal-main-content ul li {
+    margin-left: 20px;
+}
 #internal-main-content h4 {
     color: #5197b4;
     font-family: hvnStd_LiteCn;
