@@ -1139,11 +1139,10 @@ span.lighter-grey-button {
 }
 
 #nav-menu-social-buttons{
-    position: absolute;
     width: 90px;
     height: 22px;
-    left: 825px;
-    top: 37px;
+    margin-top: 37px;
+    float: right;
 }
 
 #nav-menu-social-buttons a:hover{
@@ -1458,10 +1457,21 @@ span.lighter-grey-button {
   position: relative;
 }
 
-.footer-wrap .sub-menu li {
-  display: list-item;
-  float: none!important;
-  margin-right: 0!important;
+.footer-wrap .footer-menu-wrap #menu-dlg_footer li:first-child .sub-menu li {
+  padding-top: 7px;
+}
+
+.footer-wrap .footer-menu-wrap #menu-dlg_footer li:first-child .sub-menu li a {
+    text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #33332f!important;
+}
+
+.footer-wrap .sub-menu li a{
+    text-transform: none;
+    font-size: 11.5px;
+    color: #33332f;
 }
 
 
@@ -1473,6 +1483,27 @@ span.lighter-grey-button {
   position: relative;
 }
 
+.copyright {
+    position: absolute;
+    left: 853px;
+    top: 65px;
+}
+
+.copyright hr{
+    border-color: #5b5b5c;
+    margin-bottom: 7px;
+}
+
+.copyright p{
+    font-size: 11.5px;
+  color: #33332f;
+}
+
+.copyright a{
+    font-size: 11.5px;
+  color: #33332f;
+}
+
 .footer-wrap .footer-menu-wrap #menu-dlg_footer {
     overflow: hidden;
     position: absolute;
@@ -1482,18 +1513,18 @@ span.lighter-grey-button {
   list-style: none;
 }
 
-.footer-wrap .footer-menu-wrap li {
+.footer-wrap .footer-menu-wrap #menu-dlg_footer > li {
   padding: 0;
-  margin-right: 70px;
+  margin-right: 50px;
   display: block;
   float: left;
 }
 
-.footer-wrap .footer-menu-wrap li a {
+.footer-wrap .footer-menu-wrap #menu-dlg_footer > li > a {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
-  color: #33332f!important;
+  color: #33332f;
 }
 
 .footer-wrap #menu-top-navigation-1 {

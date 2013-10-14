@@ -25,6 +25,11 @@
           );
           ?>
         </div>
+        <div class="copyright">
+          <hr></hr>
+          <p>Copyright &copy 2013 Dialog Group <br> All rights reserved</p>
+          <a href="">Legal & Privacy</a>
+        </div>
       </div>
     </div>
 <?php
