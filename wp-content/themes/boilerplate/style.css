@@ -1441,10 +1441,14 @@ span.lighter-grey-button {
   position: relative;
 }
 
+.footer-wrap .footer-menu-wrap #menu-dlg_footer li:first-child .sub-menu li {
+    text-transform: uppercase;
+    font-size: 12.5px;
+}
+
 .footer-wrap .sub-menu li {
-  display: list-item;
-  float: none!important;
-  margin-right: 0!important;
+    text-transform: none;
+    font-size: 10px;
 }
 
 
@@ -1465,14 +1469,14 @@ span.lighter-grey-button {
   list-style: none;
 }
 
-.footer-wrap .footer-menu-wrap li {
+.footer-wrap .footer-menu-wrap #menu-dlg_footer > li {
   padding: 0;
   margin-right: 70px;
   display: block;
   float: left;
 }
 
-.footer-wrap .footer-menu-wrap li a {
+.footer-wrap .footer-menu-wrap #menu-dlg_footer > li > a {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
