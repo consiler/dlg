@@ -1452,13 +1452,20 @@ span.lighter-grey-button {
 }
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer li:first-child .sub-menu li {
-    text-transform: uppercase;
-    font-size: 12.5px;
+  padding-top: 7px;
 }
 
-.footer-wrap .sub-menu li {
+.footer-wrap .footer-menu-wrap #menu-dlg_footer li:first-child .sub-menu li a {
+    text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #33332f!important;
+}
+
+.footer-wrap .sub-menu li a{
     text-transform: none;
-    font-size: 10px;
+    font-size: 11.5px;
+    color: #33332f;
 }
 
 
@@ -1490,7 +1497,7 @@ span.lighter-grey-button {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
-  color: #33332f!important;
+  color: #33332f;
 }
 
 .footer-wrap #menu-top-navigation-1 {
