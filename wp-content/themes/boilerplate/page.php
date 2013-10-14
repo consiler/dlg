@@ -34,9 +34,12 @@ get_header(); ?>
             <?php //$sidebar = get_field('left_sidebar'); if($sidebar == 'nav') include('template-child-sib-menu.php'); ?>
             <?php //else if($sidebar == 'jump') if(get_field('has_left_sidebar_jump_menu')){ ?>
               <script>
-                  $.each($('#internal-main-content h4'), function(index,value){
-                  console.log($(value).attr('id'));
+              $(document).ready(function(){
+                $('#internal-main-content h4').each(function(i,v){
+                  $(v).attr('id', 'jump-heading-'+i);
+                  $('#internal-main-nav > ul').append('<li><a href="#jump-heading-'+i+'">'+$(v).html()+'</a></li>');
                 });
+              });
               </script>
             <?php //} ?>
           </ul>
