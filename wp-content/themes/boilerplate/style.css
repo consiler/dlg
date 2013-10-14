@@ -1031,14 +1031,6 @@ button {
     /* IE */
     font:14px arial, sans-serif;
     vertical-align:middle; /* IE6,IE7 */
-    /* 55 Romain */
-    text-transform: uppercase;
-    font-size: 10pt;
-    /*letter-spacing: 0.255em;*/
-    letter-spacing: 0.07em;
-    color: #464e52;
-    line-height: 38px;
-    padding: 0 20px;
 }
 
 /* Start Dialog CSS */
@@ -1053,8 +1045,12 @@ button {
   src: url('fonts/HelveticaNeueLTStd-ThCn.otf');
 }
 @font-face {
-  font-family: hvnStd_Lite;
+  font-family: hvnStd_LiteCn;
   src: url('fonts/HelveticaNeueLTStd-LtCn.otf');
+}
+@font-face {
+  font-family: hvnStd_Lite;
+  src: url('fonts/HelveticaNeueLTCom-Lt.otf');
 }
 
 
@@ -1076,21 +1072,43 @@ html, body {
 a {
     text-decoration: none;
 }
+b {
+  font-weight: bold;
+}
 p {
     line-height: 1.3em;
     color: #787878;
 }
+
 
 /* use this for navmenu, submenu, slideshow, etc. */
 .centered {
     width: 1024px;
     margin: 0 auto;
 }
-.light-grey-button {
+span.light-grey-button {
+    display: inline-block;
+   /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    /*letter-spacing: 0.255em;*/
+    letter-spacing: 0.07em;
+    color: #464e52;
+    line-height: 38px;
+    padding: 0 20px;
     background-color: #c4bfbf;
     background-color: rgba(196, 191, 191, 0.3);
 }
-.lighter-grey-button {
+span.lighter-grey-button {
+    display: inline-block;
+   /* 55 Romain */
+    text-transform: uppercase;
+    font-size: 10pt;
+    /*letter-spacing: 0.255em;*/
+    letter-spacing: 0.07em;
+    color: #464e52;
+    line-height: 38px;
+    padding: 0 20px;
     background-color: #ebeaea;
     background-color: rgba(235, 234, 234, 0.7);
 }
@@ -1209,6 +1227,9 @@ p {
     letter-spacing: 0.135em;
     text-transform: uppercase;
 }
+#sub-menu a:hover {
+    color: #156dc3;
+}
 #sub-menu {
     height: 27px;
 }
@@ -1238,7 +1259,8 @@ p {
     top: 100px;
     left: 185px;
 }
-.carousel-headline-wrap > button {
+.carousel-headline-wrap > a {
+    display: inline-block;
     margin-top: 30px;
 }
 .carousel-headline {
@@ -1277,8 +1299,9 @@ p {
 }
 #fp-testimonials-seemore p {
     color: #5684b2;
+    font-family: 'hvnStd_Lite', Monaco;
 }
-#fp-testimonials-seemore button {
+#fp-testimonials-seemore span {
     margin-top: 15px;
 }
 #fp-testimonials-logos {
@@ -1346,7 +1369,7 @@ p {
 }
 #internal-main-content h4 {
     color: #5197b4;
-    font-family: hvnStd_Lite;
+    font-family: hvnStd_LiteCn;
     font-size: 20pt;
     padding-top: 25px;
     letter-spacing: .04em;
@@ -1359,6 +1382,7 @@ p {
     width: 140px;
     padding-top: 40px;
     padding-right: 40px;
+    padding-bottom: 40px;
 }
 #internal-main-nav > ul > li > a {
     color: #7e7e7d;
@@ -1371,10 +1395,10 @@ p {
 
 /* Used on pages with no sidebar */
 .internal-main-content-fullwidth {
-    width: 814px;
+    width: 814px!important;
 }
 .internal-main-fullwidth {
-    width: 1024px;
+    width: 1024px!important;
 }
 
 /* Internal Sidebar */
@@ -1440,11 +1464,11 @@ p {
   width: 140px;
 }
 
-.footer-wrap #menu-footer-navigation {
+.footer-wrap #menu-top-navigation-1 {
   text-align: center;
 }
 
-.footer-wrap #menu-footer-navigation > li {
+.footer-wrap #menu-top-navigation-1 > li {
   display: inline-block;
   width: 8%;
   height: 150px;
@@ -1456,22 +1480,22 @@ p {
   border-left: 1px solid #222;
 }
 
-.footer-wrap #menu-footer-navigation > li:first-child {
+.footer-wrap #menu-top-navigation-1 > li:first-child {
   border-left: 2px solid #444;
 }
 
-.footer-wrap #menu-footer-navigation > li:last-child {
+.footer-wrap #menu-top-navigation-1 > li:last-child {
   border-right: 2px solid #444;
 }
 
-.footer-wrap #menu-footer-navigation > li > a {
+.footer-wrap #menu-top-navigation-1 > li > a {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
   font-family: Arial;
 }
 
-.footer-wrap #menu-footer-navigation .sub-menu > li > a {
+.footer-wrap #menu-top-navigation-1 .sub-menu > li > a {
   font-size: 11px;
   color: #ccc;
 }

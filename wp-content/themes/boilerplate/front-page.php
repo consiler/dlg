@@ -22,33 +22,39 @@ get_header(); ?>
        });
     </script>
     <div id="featured">
-      <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/1.jpg);">
-        <div class="carousel-headline-wrap">
-          <h2 class="carousel-headline">Succeeding in an<br> age of transformation.</h2>
-          <p class="carousel-subheading">Important shifts in technology and behavior are driving <br>
-big changes in your markets and customers. Leadership in <br>
-the new century requires equally bold ideas about building <br>
-brand, value, and user experience.</p>
-        </div>
-      </div>
-      <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/2.jpg);">
-        <div class="carousel-headline-wrap">
-          <h2 class="carousel-headline">Top tier digital<br>strategy and<br>execution.</h2>
-          <p class="carousel-subheading">Dialog is a professional services firm that <br>
-          combines high-level strategic insight and robust <br>
-          tactical expertise to deliver strategy at the <br>speed of digital.</p>
-        </div>
-      </div>
-      <div style="background-image: url(<?php bloginfo('template_url'); ?>/images/fp_slides/3.jpg);">
-        <div class="carousel-headline-wrap">
-          <h2 class="carousel-headline">Top tier digital<br>strategy and<br>execution.</h2>
-          <p class="carousel-subheading">Dialog is a professional services firm that <br>
-          combines high-level strategic insight and robust <br>
-          tactical expertise to deliver strategy at the <br>speed of digital.</p>
-          <p class="carousel-subheading carousel-subheading-bold">Domination requires transformation.<br>Are you prepared?</p> 
-          <button class="lighter-grey-button">Learn More</button>
-        </div>
-      </div>
+    <?php
+      $post_type = 'frontpage_slides';
+      $args=array(
+        'post_type' => $post_type,
+        'posts_per_page' => -1,
+        'orderby' => 'title',
+        'order' => 'ASC',
+        'ignore_sticky_posts'=> 1
+      );
+ 
+      $my_query = null;
+      $my_query = new WP_Query($args);
+      $testgroup = "A";
+      if(isset($_GET['bgroup'])){ $testgroup = "B"; }
+      if( $my_query->have_posts() ) {
+        while ($my_query->have_posts()) : $my_query->the_post(); $id = get_the_ID();
+        if(get_field('test_group', $id) == $testgroup){
+        ?>
+          <div style="background-image: url(<?php the_field('slide_image', $id); ?>);">
+            <div class="carousel-headline-wrap">
+              <h2 class="carousel-headline"><?php the_field('slide_title', $id); ?></h2>
+              <p class="carousel-subheading"><?php the_field('slide_description', $id); ?></p>
+              <?php if($label = get_field('slide_cta_label', $id)){ ?>
+                <a href="<?php the_field('slide_cta_link'); ?>"><span class="lighter-grey-button"><?php echo $label; ?></span></a>
+              <?php } ?>
+            </div>
+          </div>
+          <?php
+        }
+        endwhile;
+      }
+      wp_reset_query();
+    ?>
     </div>
   </div>
 </div>
@@ -57,7 +63,7 @@ brand, value, and user experience.</p>
     <div id="fp-testimonials-seemore">
       <p>We have worked with a range of clients from startups to Fortune 500 companies to help them solve a wide range of problems.
       </p>
-      <button class="light-grey-button">Full Testimonials</button>
+      <span class="light-grey-button">Full Testimonials</span>
     </div>
     <div id="fp-testimonials-logos">
       <img src="<?php bloginfo('template_url'); ?>/images/testimonials-client-logos.jpg">

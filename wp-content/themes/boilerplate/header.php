@@ -12,9 +12,31 @@
 <!--[if IE 9 ]><html class="no-js ie ie9 lte9" dir="<?php bloginfo('text_direction'); ?>" <?php language_attributes(); ?>><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html class="no-js" dir="<?php bloginfo('text_direction'); ?>" <?php language_attributes(); ?>><!--<![endif]-->
 	<head>
+  <?php //Home Page Slider A/B Test ?>
+  <?php if(is_front_page()){ ?>
+  <script>
+  _udn = "dialoggroup.com"
+  </script>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='77648298-2',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+  <?php } ?>
+
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title>Dialog Group - Need Page Specific Titles</title>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--<script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>-->
     <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
@@ -35,9 +57,9 @@
       wp_nav_menu('Top Navigation');
     ?>
     <div id="nav-menu-social-buttons">
-      <a href="https://twitter.com/" id="twitter"></a>
-      <a href="http://www.linkedin.com/company/409027?trk=prof-exp-company-name" id="linkedin"></a>
-      <a href="https://www.facebook.com/" id="facebook"></a>
+      <a href="https://twitter.com/DialogGroup" id="twitter" target="_blank"></a>
+      <a href="http://www.linkedin.com/company/409027?trk=prof-exp-company-name" id="linkedin" target="_blank"></a>
+      <a href="https://www.facebook.com/pages/Dialog-Group/109249289098218" id="facebook" target="_blank"></a>
     </div>
   </nav>
 </div>
