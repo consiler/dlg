@@ -92,6 +92,7 @@ if ( ! function_exists( 'boilerplate_setup' ) ):
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => __( 'Primary Navigation', 'boilerplate' ),
+			'footer' => __( 'Footer Navigation', 'boilerplate' ),
 		) );
 
 		// This theme allows users to set a custom background

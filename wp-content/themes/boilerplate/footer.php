@@ -18,7 +18,11 @@
       <div class="footer-inner">
         <div class="footer-menu-wrap">
           <?php
-          wp_nav_menu("Footer");
+          wp_nav_menu(array(
+            'theme_location'  => 'footer',
+            'menu'            => 'Dlg_Footer'
+            )
+          );
           ?>
         </div>
       </div>
