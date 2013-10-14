@@ -1379,6 +1379,12 @@ span.lighter-grey-button {
     margin: 15px 0;
     margin-left: 20px;
 }
+.flexslider .slides {
+    margin-left: 0!important;
+}
+.flexslider .slides .slide {
+    margin-left: 0!important;
+}
 #internal-main-content h4 {
     color: #5197b4;
     font-family: hvnStd_LiteCn;

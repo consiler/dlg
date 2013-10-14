@@ -31,34 +31,14 @@ get_header(); ?>
       <div id="internal-main"<?php if(!get_field('has_sidebar')){ ?> class="internal-main-fullwidth"<?php } ?>>
         <nav id="internal-main-nav">
           <ul>
-            <?php
-              $all_pages = get_pages();
-              $children = get_page_children(get_the_ID(), $all_pages);
-              $children_count = 0;
-              foreach($children as $child)
-              {
-                $children_count++;
-                $child_href = get_page_link($child->ID);
-                $child_title = $child->post_title;
-                ?>
-                  <li><a href="<?php echo $child_href; ?>"><?php echo $child_title; ?></a></li>
-                <?php
-              }
-              if(!$children_count){
-                $all_pages = get_pages();
-                $children = get_page_children($post->post_parent, $all_pages);
-                $children_count = 0;
-                foreach($children as $child)
-                {
-                  $children_count++;
-                  $child_href = get_page_link($child->ID);
-                  $child_title = $child->post_title;
-                  ?>
-                    <li><a href="<?php echo $child_href; ?>"><?php echo $child_title; ?></a></li>
-                  <?php
-                }
-              }
-            ?>
+            <?php //$sidebar = get_field('left_sidebar'); if($sidebar == 'nav') include('template-child-sib-menu.php'); ?>
+            <?php //else if($sidebar == 'jump') if(get_field('has_left_sidebar_jump_menu')){ ?>
+              <script>
+                  $.each($('#internal-main-content h4'), function(index,value){
+                  console.log($(value).attr('id'));
+                });
+              </script>
+            <?php //} ?>
           </ul>
         </nav>
         <article id="internal-main-content"<?php if(!get_field('has_sidebar')){ ?> class="internal-main-content-fullwidth"<?php } ?>>

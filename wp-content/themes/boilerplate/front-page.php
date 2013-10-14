@@ -63,7 +63,7 @@ get_header(); ?>
     <div id="fp-testimonials-seemore">
       <p>We have worked with a range of clients from startups to Fortune 500 companies to help them solve a wide range of problems.
       </p>
-      <span class="light-grey-button">Full Testimonials</span>
+      <a href="/testimonials"><span class="light-grey-button">Full Testimonials</span></a>
     </div>
     <div id="fp-testimonials-logos">
       <img src="<?php bloginfo('template_url'); ?>/images/testimonials-client-logos.jpg">
