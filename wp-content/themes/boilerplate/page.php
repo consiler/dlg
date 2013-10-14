@@ -31,8 +31,8 @@ get_header(); ?>
       <div id="internal-main"<?php if(!get_field('has_sidebar')){ ?> class="internal-main-fullwidth"<?php } ?>>
         <nav id="internal-main-nav">
           <ul>
-            <?php //$sidebar = get_field('left_sidebar'); if($sidebar == 'nav') include('template-child-sib-menu.php'); ?>
-            <?php //else if($sidebar == 'jump') if(get_field('has_left_sidebar_jump_menu')){ ?>
+            <?php $sidebar = get_field('left_sidebar'); if($sidebar == 'nav') include('template-child-sib-menu.php'); ?>
+            <?php if($sidebar == 'jump'){ ?>
               <script>
               $(document).ready(function(){
                 $('#internal-main-content h4').each(function(i,v){
@@ -41,7 +41,7 @@ get_header(); ?>
                 });
               });
               </script>
-            <?php //} ?>
+            <?php } ?>
           </ul>
         </nav>
         <article id="internal-main-content"<?php if(!get_field('has_sidebar')){ ?> class="internal-main-content-fullwidth"<?php } ?>>
