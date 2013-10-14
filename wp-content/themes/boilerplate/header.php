@@ -54,7 +54,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       <div id="dlg-logo-bottom"></div>
     </a>
     <?php
-      wp_nav_menu('Top Navigation');
+      wp_nav_menu(array(
+        'theme_location'  => 'primary',
+        'menu'            => 'Top Navigation'
+        )
+      );    
     ?>
     <div id="nav-menu-social-buttons">
       <a href="https://twitter.com/DialogGroup" id="twitter" target="_blank"></a>
