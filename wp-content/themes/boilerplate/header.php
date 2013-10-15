@@ -35,12 +35,13 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title>Dialog Group - Need Page Specific Titles</title>
+    <!-- #cat app-min.js -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <!--<script src="<?php bloginfo('template_url'); ?>/js/jquery.js" type="text/javascript"></script>-->
     <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/navbar.js"></script>
+    <!-- endcat -->
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/navbar.js"></script>
 <?php
 		//If you delete this line, the wordpress admin menu will not appear at the top of the page
 		wp_head();
@@ -74,11 +75,6 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </div>
 <div id="sub-menu-wrap">
   <nav id="sub-menu" class="centered">
-  <?php
-    if(is_front_page()){
-      ?>
-      <div><!-- <a href="/overview">Overview</a> --></div>
-      <?php
-    } ?>
+
   </nav>
 </div>
