@@ -1580,3 +1580,12 @@ background-image: url(images/facebook-h.png);
   font-size: 11px;
   color: #ccc;
 }
+
+/*Styling Quotes*/
+
+blockquote {
+    background: url(images/bg-quote1.png) no-repeat;
+    background-size: 40px 40px;
+    padding: 15px 15px 15px 30px;
+    font-style: italic; 
+}
