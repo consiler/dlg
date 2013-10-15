@@ -36,8 +36,8 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 
- // define('WP_HOME', 'http://dialoggroup.com/dlg');
- // define('WP_SITEURL', 'http://dialoggroup.com/dlg');
+ define('WP_HOME', 'http://dialoggroup.com');
+ define('WP_SITEURL', 'http://dialoggroup.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.

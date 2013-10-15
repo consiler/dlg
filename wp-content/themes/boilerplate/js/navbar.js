@@ -19,7 +19,7 @@ $(document).ready(function(){
     var parent = vj.parent();
     var parent_position_left = parent.position().left;
     var parent_index = parent.index();
-    parent.attr('data-hassubmenu','true');
+    parent.attr('data-hassubmenu','1');
     vj.css({left: parent_position_left});
     slideCenter.append(vj.attr('data-sub-menu-index',''+parent_index));
   });
@@ -37,11 +37,12 @@ $(document).ready(function(){
   });
 
   //Activate and close slide menu hover state from top level
+  var navUL = $('#nav-menu-slide-center ul');
   $('#menu-top-navigation > li').each(function(i,v){
     var vj = $(v);
-    if(vj.attr('data-hassubmenu') == 'true'){
+    if(vj.attr('data-hassubmenu') == '1'){//faster than using a class
       vj.hover(function() {
-        $('#nav-menu-slide-center ul').hide();
+        navUL.hide()
         $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').css({display: 'block'});
         slideMenu.stop()
         .animate({
