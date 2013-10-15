@@ -34,7 +34,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
   <?php } ?>)
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<title>Dialog Group - Need Page Specific Titles</title>
+		<title>Dialog Group</title>
     <!-- #cat app-min.js -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>

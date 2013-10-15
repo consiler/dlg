@@ -18,16 +18,16 @@
 /** The name of the database for WordPress */
 
 
-define('DB_NAME', 'dlg');
+define('DB_NAME', 'dialog_site');
 
 /** MySQL database username */
-define('DB_USER', 'external');
+define('DB_USER', 'dialog_prod');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ilovedialog');
+define('DB_PASSWORD', 'zV79dJioWqO0');
 
 /** MySQL hostname */
-define('DB_HOST', 'li619-89.members.linode.com');
+define('DB_HOST', 'mysql1202.ixwebhosting.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -36,8 +36,8 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 
- define('WP_HOME', 'http://dialoggroup.com');
- define('WP_SITEURL', 'http://dialoggroup.com');
+define('WP_HOME', 'http://dialoggroup.com');
+define('WP_SITEURL', 'http://dialoggroup.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
