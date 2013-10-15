@@ -1266,6 +1266,9 @@ down every time */
     color: #565653;
     font-size: 10px;
 }
+#nav-menu-slide .sub-menu div > li > a:hover {
+    color: #156dc3;
+}
 
 #sub-menu-wrap {
     background-color: #333;
