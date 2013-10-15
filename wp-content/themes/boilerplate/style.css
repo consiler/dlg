@@ -1190,6 +1190,7 @@ background-position: 44px 0px;
     background-image: url(images/nav-bg.gif);
     position: relative;
     z-index: 13;
+    box-shadow: 0px 3px 2.73px 0.27px rgba(0, 0, 0, 0.2);
 }
 #nav-menu-wrap.shade {
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
@@ -1261,7 +1262,7 @@ down every time */
 
 #sub-menu-wrap {
     background-color: #333;
-    background-image: url(images/sub-nav-bg.gif);
+    background-image: url(images/sub-nav-bg.jpg);
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
     box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
     position: relative;
