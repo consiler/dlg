@@ -1303,11 +1303,10 @@ background-image: url(images/facebook-h.png);
 #fp-testimonials-seemore {
     float: left;
     width: 265px;
-    padding-left: 180px;
-    padding-top: 30px;
+    margin: 35px;
 }
 #fp-testimonials-seemore p {
-    color: #5684b2;
+    color: #33332f;
     font-family: 'hvnStd_Lite', Monaco;
 }
 #fp-testimonials-seemore span {
@@ -1316,6 +1315,14 @@ background-image: url(images/facebook-h.png);
 #fp-testimonials-logos {
     float: right;
     width: 524px;
+}
+
+#fp-testimonials h4{
+    color: #5197b4;
+    font-family: hvnStd_LiteCn;
+    font-size: 18pt;
+    letter-spacing: .04em;
+    padding-bottom: 4px;
 }
 
 /* Internal Page */
