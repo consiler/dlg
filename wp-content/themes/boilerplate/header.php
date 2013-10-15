@@ -31,7 +31,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
 </script><script>utmx('url','A/B');</script>
 <!-- End of Google Analytics Content Experiment code -->
-  <?php } ?>
+  <?php } ?>)
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title>Dialog Group - Need Page Specific Titles</title>
@@ -40,6 +40,32 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <script src="<?php bloginfo('template_url'); ?>/js/orbit/jquery.orbit.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
+    <script>
+      $(document).ready(function(){
+        var slideMenu = $('#nav-menu-slide');
+        $('#menu-top-navigation > li > .sub-menu').each(function(i,v){
+          $('#nav-menu-slide-center', slideMenu).append($(v));
+        });
+        //var nmw = $('#nav-menu-wrap');
+        $('#menu-top-navigation > li')
+        .mouseenter(function() {
+          //nmw.attr('class','shade');
+          slideMenu.stop()
+          .animate({
+            top: 71
+          });
+        })
+        .mouseleave(function() {
+          slideMenu.stop()
+          .animate({
+            top: -24
+          }, 400, 'swing', function(){
+            slideMenu.stop();
+            //nmw.attr('class','');
+          });
+        });
+      });
+    </script>
 <?php
 		//If you delete this line, the wordpress admin menu will not appear at the top of the page
 		wp_head();
@@ -58,7 +84,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
         'theme_location'  => 'primary',
         'menu'            => 'Top Navigation'
         )
-      );    
+      );
     ?>
     <div id="nav-menu-social-buttons">
       <a href="https://twitter.com/DialogGroup" id="twitter" target="_blank"></a>
@@ -66,6 +92,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       <a href="https://www.facebook.com/pages/Dialog-Group/207028266144869" id="facebook" target="_blank"></a>
     </div>
   </nav>
+</div>
+<div id="nav-menu-slide">
+  <div id="nav-menu-slide-center" class="centered">
+  </div>
 </div>
 <div id="sub-menu-wrap">
   <nav id="sub-menu" class="centered">
