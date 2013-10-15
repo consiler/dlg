@@ -1229,7 +1229,7 @@ background-position: 44px 0px;
 }
 
 /* Sliding submenu wrapper */
-
+.sub-menu { display: none; }
 /* Individual submenus are hidden and shown using display: none/block in one wrapper menu that slides
 down every time */
 #nav-menu-slide {
@@ -1251,14 +1251,19 @@ down every time */
     float: left;
     position: relative;
 }
-#nav-menu-slide .sub-menu > li {
-    margin-top: 5px;
+#nav-menu-slide .sub-menu div {
+    width: 200px;
+    float: left;
+    padding-top: 27px;
 }
-#nav-menu-slide .sub-menu > li > a {
+#nav-menu-slide .sub-menu div > li {
+    margin-top: 3px;
+}
+#nav-menu-slide .sub-menu div > li > a {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
     color: #565653;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 #sub-menu-wrap {

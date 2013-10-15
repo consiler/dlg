@@ -41,20 +41,38 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/orbit/orbit.css">
     <script>
+    //Navbar code
       $(document).ready(function(){
         var slideMenu = $('#nav-menu-slide');
+
+        //Extract the sub menus
         $('#menu-top-navigation > li > .sub-menu').each(function(i,v){
-          var parent = $(v).parent();
+          var vj = $(v);
+          var slideCenter = $('#nav-menu-slide-center');
+          var group_index = 0;
+          while(vj.children('li').length > 3){
+            //get 3 children and allocate them into a new submenu
+            vj.children("li:lt(3)").wrapAll("<div></div>");
+            group_index++;
+            if(group_index > 100) break;
+          }
+          vj.children('li').wrapAll("<div>");
+          var parent = vj.parent();
           var parent_position_left = parent.position().left;
           var parent_index = parent.index();
           parent.addClass('hassubmenu');
-          $(v).css({left: parent_position_left});
-          $('#nav-menu-slide-center').append($(v).attr('data-sub-menu-index',''+parent_index));
+          vj.css({left: parent_position_left});
+          slideCenter.append(vj.attr('data-sub-menu-index',''+parent_index));
         });
-        //var nmw = $('#nav-menu-wrap');
+
+        //Set the nav menu rollover
+        $('#menu-top-navigation', '#nav-menu-slide').mouseenter(function() {
+
+        });
         $('#menu-top-navigation > li').each(function(i,v){
           if($(v).hasClass('hassubmenu')){
             $(v).mouseenter(function() {
+              $('#nav-menu-slide-center ul').hide();
               //nmw.attr('class','shade');
               $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').css({display: 'block'});
               slideMenu.stop()
@@ -63,11 +81,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
               });
             })
             .mouseleave(function() {
-              $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
               slideMenu.stop()
               .animate({
                 top: -24
               }, 400, 'swing', function(){
+                $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
                 slideMenu.stop();
                 //nmw.attr('class','');
               });
