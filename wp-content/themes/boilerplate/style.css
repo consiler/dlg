@@ -1496,8 +1496,8 @@ background-image: url(images/facebook-h.png);
 
 .copyright {
     position: absolute;
-    left: 853px;
-    top: 65px;
+    left: 850px;
+    top: 55px;
 }
 
 .copyright hr{
@@ -1526,7 +1526,7 @@ background-image: url(images/facebook-h.png);
 
 .footer-wrap .footer-menu-wrap #menu-dlg_footer > li {
   padding: 0;
-  margin-right: 65px;
+  margin-right: 62px;
   display: block;
   float: left;
 }

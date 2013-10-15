@@ -72,7 +72,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
   <?php
     if(is_front_page()){
       ?>
-      <div><a href="/overview">Overview</a></div>
+      <div><!-- <a href="/overview">Overview</a> --></div>
       <?php
     } ?>
   </nav>
