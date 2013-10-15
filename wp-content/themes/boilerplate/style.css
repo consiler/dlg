@@ -1147,39 +1147,42 @@ span.lighter-grey-button {
 
 
 #twitter{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/twitter.png);
+    background-image: url(images/social.png);
+    background-position: 0px 22px;
     margin-left: 6px;
 }
 
 #linkedin{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/linkedin.png);
+    background-image: url(images/social.png);
+    background-position: 22px 22px;
     margin-left: 6px;
 }
 
 #facebook{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/facebook.png);
+    background-image: url(images/social.png);
+    background-position: 44px 22px;
     margin-left: 6px;
 }
 
 #twitter:hover{
-background-image: url(images/twitter-h.png);
+background-position: 0px 0px;
 }
 
 #linkedin:hover{
-background-image: url(images/linkedin-h.png);
+background-position: 22px 0px;
 }
 
 #facebook:hover{
-background-image: url(images/facebook-h.png);
+background-position: 44px 0px;
 }
 
 #nav-menu-wrap {
