@@ -1072,7 +1072,7 @@ html, body {
 a {
     text-decoration: none;
 }
-b {
+b, strong {
   font-weight: bold;
 }
 p {
@@ -1207,9 +1207,7 @@ background-image: url(images/facebook-h.png);
     margin-right: 35px;
     position: relative;
 }
-.sub-menu {
-    display: none;
-}
+
 #nav-menu a {
     color: #52524f;
     font-family: Arial, sans-serif;
@@ -1247,6 +1245,9 @@ down every time */
 #nav-menu-slide .sub-menu {
     display: block;
     float: left;
+}
+#nav-menu-slide .sub-menu > li {
+    margin-top: 5px;
 }
 #nav-menu-slide .sub-menu > li > a {
     font-family: Arial, sans-serif;

@@ -43,8 +43,8 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <script>
       $(document).ready(function(){
         var slideMenu = $('#nav-menu-slide');
-        $('#menu-top-navigation > li > .sub-menu').each(function(i,v){
-          $('#nav-menu-slide-center', slideMenu).append($(v));
+        $('#menu-top-navigation > li > .sub-menu > li').each(function(i,v){
+          $('#nav-menu-slide-center ul', slideMenu).append($(v));
         });
         //var nmw = $('#nav-menu-wrap');
         $('#menu-top-navigation > li')
@@ -95,6 +95,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </div>
 <div id="nav-menu-slide">
   <div id="nav-menu-slide-center" class="centered">
+    <ul></ul>
   </div>
 </div>
 <div id="sub-menu-wrap">
