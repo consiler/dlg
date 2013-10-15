@@ -44,32 +44,35 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       $(document).ready(function(){
         var slideMenu = $('#nav-menu-slide');
         $('#menu-top-navigation > li > .sub-menu').each(function(i,v){
-          var parent_position_left = $(v).parent().position().left;
-          console.log(parent_position_left);
+          var parent = $(v).parent();
+          var parent_position_left = parent.position().left;
+          var parent_index = parent.index();
+          parent.addClass('hassubmenu');
           $(v).css({left: parent_position_left});
-          $('#nav-menu-slide-center').append($(v).attr('data-sub-menu-index',''+i));
-          //.attr('data-sub-menu-offset', ''+$(v).position().left)
+          $('#nav-menu-slide-center').append($(v).attr('data-sub-menu-index',''+parent_index));
         });
         //var nmw = $('#nav-menu-wrap');
         $('#menu-top-navigation > li').each(function(i,v){
-          $(v).mouseenter(function() {
-            //nmw.attr('class','shade');
-            $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').show();
-            slideMenu.stop()
-            .animate({
-              top: 71
+          if($(v).hasClass('hassubmenu')){
+            $(v).mouseenter(function() {
+              //nmw.attr('class','shade');
+              $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').css({display: 'block'});
+              slideMenu.stop()
+              .animate({
+                top: 71
+              });
+            })
+            .mouseleave(function() {
+              $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
+              slideMenu.stop()
+              .animate({
+                top: -24
+              }, 400, 'swing', function(){
+                slideMenu.stop();
+                //nmw.attr('class','');
+              });
             });
-          })
-          .mouseleave(function() {
-            $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
-            slideMenu.stop()
-            .animate({
-              top: -24
-            }, 400, 'swing', function(){
-              slideMenu.stop();
-              //nmw.attr('class','');
-            });
-          });
+          }
         });
       });
     </script>
