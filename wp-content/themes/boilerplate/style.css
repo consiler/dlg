@@ -1122,7 +1122,7 @@ span.lighter-grey-button {
     position: absolute;
     left: 18px;
     top: -4px;
-    z-index: 13;
+    z-index: 1013;
 }
 
 #dlg-logo-top {
@@ -1189,7 +1189,7 @@ background-position: 44px 0px;
     background-color: #ccc;
     background-image: url(images/nav-bg.gif);
     position: relative;
-    z-index: 13;
+    z-index: 1013;
     box-shadow: 0px 3px 2.73px 0.27px rgba(0, 0, 0, 0.2);
 }
 #nav-menu-wrap.shade {
@@ -1238,7 +1238,7 @@ down every time */
     position: absolute;
     height: 95px;
     width: 100%;
-    z-index: 12;
+    z-index: 1012;
     top: -24px;
     background-image: url(images/nav-slide-menu-bg.jpg);
     -webkit-box-shadow:  0px 3px 15px 0px rgba(0, 0, 0, 0.4);
@@ -1279,7 +1279,7 @@ down every time */
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
     box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
     position: relative;
-    z-index: 11;
+    z-index: 1011;
 }
 #sub-menu-wrap a {
     font-size: 12px;

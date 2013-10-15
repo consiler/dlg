@@ -19,7 +19,7 @@ $(document).ready(function(){
     var parent = vj.parent();
     var parent_position_left = parent.position().left;
     var parent_index = parent.index();
-    parent.addClass('hassubmenu');
+    parent.attr('data-hassubmenu','true');
     vj.css({left: parent_position_left});
     slideCenter.append(vj.attr('data-sub-menu-index',''+parent_index));
   });
@@ -38,13 +38,14 @@ $(document).ready(function(){
 
   //Activate and close slide menu hover state from top level
   $('#menu-top-navigation > li').each(function(i,v){
-    if($(v).hasClass('hassubmenu')){
-      $(v).hover(function() {
+    var vj = $(v);
+    if(vj.attr('data-hassubmenu') == 'true'){
+      vj.hover(function() {
         $('#nav-menu-slide-center ul').hide();
         $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').css({display: 'block'});
         slideMenu.stop()
         .animate({
-          top: 99
+          top: 71
         });
       }, function(){
         slideMenu.stop()
