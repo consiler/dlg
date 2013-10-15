@@ -1147,39 +1147,42 @@ span.lighter-grey-button {
 
 
 #twitter{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/twitter.png);
+    background-image: url(images/social.png);
+    background-position: 0px 22px;
     margin-left: 6px;
 }
 
 #linkedin{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/linkedin.png);
+    background-image: url(images/social.png);
+    background-position: 22px 22px;
     margin-left: 6px;
 }
 
 #facebook{
-    width: 21px;
+    width: 22px;
     height: 22px;
     float: left;
-    background-image: url(images/facebook.png);
+    background-image: url(images/social.png);
+    background-position: 44px 22px;
     margin-left: 6px;
 }
 
 #twitter:hover{
-background-image: url(images/twitter-h.png);
+background-position: 0px 0px;
 }
 
 #linkedin:hover{
-background-image: url(images/linkedin-h.png);
+background-position: 22px 0px;
 }
 
 #facebook:hover{
-background-image: url(images/facebook-h.png);
+background-position: 44px 0px;
 }
 
 #nav-menu-wrap {
@@ -1187,6 +1190,7 @@ background-image: url(images/facebook-h.png);
     background-image: url(images/nav-bg.gif);
     position: relative;
     z-index: 13;
+    box-shadow: 0px 3px 2.73px 0.27px rgba(0, 0, 0, 0.2);
 }
 #nav-menu-wrap.shade {
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
@@ -1259,7 +1263,7 @@ down every time */
 
 #sub-menu-wrap {
     background-color: #333;
-    background-image: url(images/sub-nav-bg.gif);
+    background-image: url(images/sub-nav-bg.jpg);
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
     box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
     position: relative;
@@ -1626,4 +1630,5 @@ blockquote {
     border-left: 4px solid #ccc;
     margin: 30px 0 0px 15px;
     padding-left: 15px;    
+    background: #f9f9f9;
 }
