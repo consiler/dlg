@@ -89,7 +89,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <div id="nav-menu-social-buttons">
       <a href="https://twitter.com/DialogGroup" id="twitter" target="_blank"></a>
       <a href="http://www.linkedin.com/company/409027?trk=prof-exp-company-name" id="linkedin" target="_blank"></a>
-      <a href="https://www.facebook.com/pages/Dialog-Group/109249289098218" id="facebook" target="_blank"></a>
+      <a href="https://www.facebook.com/pages/Dialog-Group/207028266144869" id="facebook" target="_blank"></a>
     </div>
   </nav>
 </div>
@@ -102,7 +102,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
   <?php
     if(is_front_page()){
       ?>
-      <div><a href="/overview">Overview</a></div>
+      <div><!-- <a href="/overview">Overview</a> --></div>
       <?php
     } ?>
   </nav>
