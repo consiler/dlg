@@ -1247,7 +1247,7 @@ down every time */
     width: 844px;
 }
 #nav-menu-slide .sub-menu {
-    display: block;
+    display: none;
     float: left;
     position: relative;
 }
