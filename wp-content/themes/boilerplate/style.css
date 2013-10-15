@@ -1064,7 +1064,7 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -165px; /* the bottom margin is the negative value of the footer's height */
+  margin: -16px auto -165px; /* the bottom margin is the negative value of the footer's height */
 }
 .push {
   height: 165px;
@@ -1186,7 +1186,11 @@ background-image: url(images/facebook-h.png);
     background-color: #ccc;
     background-image: url(images/nav-bg.gif);
     position: relative;
-    z-index: 12;
+    z-index: 13;
+}
+#nav-menu-wrap.shade {
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
 }
 #nav-menu {
     position: relative;
@@ -1201,6 +1205,7 @@ background-image: url(images/facebook-h.png);
 #menu-top-navigation > li {
     float: left;
     margin-right: 35px;
+    position: relative;
 }
 .sub-menu {
     display: none;
@@ -1221,13 +1226,42 @@ background-image: url(images/facebook-h.png);
     text-shadow: 0px 0px 3px rgba(255,255,255,0.9);
 }
 
+/* Sliding submenu wrapper */
+
+/* Individual submenus are hidden and shown using display: none/block in one wrapper menu that slides
+down every time */
+#nav-menu-slide {
+    background-color: #fff;
+    position: absolute;
+    height: 95px;
+    width: 100%;
+    z-index: 12;
+    top: -24px;
+    background-image: url(images/nav-slide-menu-bg.jpg);
+}
+#nav-menu-slide-center {
+    overflow: hidden;
+    padding-left: 180px;
+    width: 844px;
+}
+#nav-menu-slide .sub-menu {
+    display: block;
+    float: left;
+}
+#nav-menu-slide .sub-menu > li > a {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    color: #565653;
+    font-size: 11px;
+}
+
 #sub-menu-wrap {
     background-color: #333;
     background-image: url(images/sub-nav-bg.gif);
-    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
     position: relative;
     z-index: 11;
-    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.7);
 }
 #sub-menu-wrap a {
     font-size: 12px;
