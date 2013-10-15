@@ -67,35 +67,37 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
           slideCenter.append(vj.attr('data-sub-menu-index',''+parent_index));
         });
 
-        //Utility function for later
-        function contractMenu()
-        {
+        //Manage slide menu hover state
+        $('#nav-menu-slide').hover(function(){
+          slideMenu.stop();
+        }, function(){
           slideMenu.stop()
                 .animate({
                   top: -24
                 }, 400, 'swing', function(){
-                  $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
                   slideMenu.stop();
               });
-        }
-
-        //Manage slide menu hover state
-        $('#nav-menu-slide').hover(function(){
-          slideMenu.stop();
-        }, contractMenu);
+        });
 
         //Activate and close slide menu hover state from top level
         $('#menu-top-navigation > li').each(function(i,v){
           if($(v).hasClass('hassubmenu')){
             $(v).hover(function() {
               $('#nav-menu-slide-center ul').hide();
-              //nmw.attr('class','shade');
               $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').css({display: 'block'});
               slideMenu.stop()
               .animate({
                 top: 71
               });
-            }, contractMenu);
+            }, function(){
+              slideMenu.stop()
+                .animate({
+                  top: -24
+                }, 400, 'swing', function(){
+                  $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
+                  slideMenu.stop();
+              });
+            });
           }
         });
       });
