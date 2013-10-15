@@ -43,25 +43,32 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <script>
       $(document).ready(function(){
         var slideMenu = $('#nav-menu-slide');
-        $('#menu-top-navigation > li > .sub-menu > li').each(function(i,v){
-          $('#nav-menu-slide-center ul', slideMenu).append($(v));
+        $('#menu-top-navigation > li > .sub-menu').each(function(i,v){
+          var parent_position_left = $(v).parent().position().left;
+          console.log(parent_position_left);
+          $(v).css({left: parent_position_left});
+          $('#nav-menu-slide-center').append($(v).attr('data-sub-menu-index',''+i));
+          //.attr('data-sub-menu-offset', ''+$(v).position().left)
         });
         //var nmw = $('#nav-menu-wrap');
-        $('#menu-top-navigation > li')
-        .mouseenter(function() {
-          //nmw.attr('class','shade');
-          slideMenu.stop()
-          .animate({
-            top: 71
-          });
-        })
-        .mouseleave(function() {
-          slideMenu.stop()
-          .animate({
-            top: -24
-          }, 400, 'swing', function(){
-            slideMenu.stop();
-            //nmw.attr('class','');
+        $('#menu-top-navigation > li').each(function(i,v){
+          $(v).mouseenter(function() {
+            //nmw.attr('class','shade');
+            $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').show();
+            slideMenu.stop()
+            .animate({
+              top: 71
+            });
+          })
+          .mouseleave(function() {
+            $('#nav-menu-slide-center ul[data-sub-menu-index='+i+']').hide();
+            slideMenu.stop()
+            .animate({
+              top: -24
+            }, 400, 'swing', function(){
+              slideMenu.stop();
+              //nmw.attr('class','');
+            });
           });
         });
       });
@@ -95,7 +102,6 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </div>
 <div id="nav-menu-slide">
   <div id="nav-menu-slide-center" class="centered">
-    <ul></ul>
   </div>
 </div>
 <div id="sub-menu-wrap">

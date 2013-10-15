@@ -1245,6 +1245,7 @@ down every time */
 #nav-menu-slide .sub-menu {
     display: block;
     float: left;
+    position: relative;
 }
 #nav-menu-slide .sub-menu > li {
     margin-top: 5px;
