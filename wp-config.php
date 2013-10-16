@@ -17,7 +17,6 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-
 define('DB_NAME', 'dialog_site');
 
 /** MySQL database username */
@@ -34,7 +33,6 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 
 define('WP_HOME', 'http://dialoggroup.com');
 define('WP_SITEURL', 'http://dialoggroup.com');

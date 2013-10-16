@@ -1405,7 +1405,7 @@ div.timer {
     padding-left: 180px;
     padding-top: 40px;
 }
-#internal-header-text > h3 {
+#internal-header-text > h1 {
     font-family: hvnStd_UltLt;
     color: #b4c1cf;
     font-size: 36pt;
@@ -1452,12 +1452,13 @@ div.timer {
 }
 #internal-main-content ul {
     list-style: disc outside none;
+    color: #787878;
 }
 #internal-main-content ul li {
     margin: 15px 0;
     margin-left: 20px;
 }
-#internal-main-content h4 {
+#internal-main-content h2 {
     color: #5197b4;
     font-family: hvnStd_LiteCn;
     font-size: 20pt;
@@ -1478,6 +1479,9 @@ div.timer {
     color: #7e7e7d;
     text-transform: uppercase;
     font-size: 10.5pt;
+}
+#internal-main-nav > ul > li > a:hover {
+    color: #000;
 }
 #internal-main-nav > ul > li {
     padding-bottom: 15px;

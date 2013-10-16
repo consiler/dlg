@@ -17,7 +17,7 @@ get_header(); ?>
   <div id="internal-header-wrap">
     <div id="internal-header" class="centered">
       <header id="internal-header-text">
-        <h3><?php the_field('page_heading_text'); ?></h3>
+        <h1><?php the_field('page_heading_text'); ?></h1>
         <p><?php the_field('page_subheading_text'); ?></p>
       </header>
       <div id="internal-banner-image">
@@ -35,7 +35,7 @@ get_header(); ?>
             <?php if($sidebar == 'jump'){ ?>
               <script>
               $(document).ready(function(){
-                $('#internal-main-content h4').each(function(i,v){
+                $('#internal-main-content h2').each(function(i,v){
                   $(v).attr('id', 'jump-heading-'+i);
                   $('#internal-main-nav > ul').append('<li><a href="#jump-heading-'+i+'">'+$(v).html()+'</a></li>');
                 });

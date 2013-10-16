@@ -51,7 +51,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 <div id="wrapper">
 <div id="nav-menu-wrap">
   <nav id="nav-menu" class="centered">
-    <a href="<?php bloginfo('wpurl'); ?>" id="dlg-logo">
+    <a href="/" id="dlg-logo">
       <div id="dlg-logo-top"></div>
       <div id="dlg-logo-bottom"></div>
     </a>
