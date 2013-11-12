@@ -1,0 +1,705 @@
+# Webalizer V2.20-01 Incremental Data - 03/12/2011 02:00:05
+2011 3 12 2 0 5
+363 0 90 0 97 61 238771 111 97 0
+1 2 193 1 12
+13 0 6594 8 8 7
+15 0 6796 12 9 9
+9 0 2796 8 7 7
+17 0 8495 11 9 8
+11 0 4968 8 7 7
+18 0 8100 14 12 12
+216 0 170110 14 15 11
+14 0 7932 8 12 7
+16 0 9358 9 7 7
+15 0 6792 11 10 10
+17 0 6350 11 13 11
+2 0 480 1 2 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 0 1064 2
+12 0 4058 11
+3 0 708 3
+6 0 2596 4
+13 0 5672 8
+8 0 3660 5
+15 0 7632 8
+6 0 1984 5
+5 0 2118 3
+8 0 3632 6
+3 0 480 3
+6 0 2562 5
+4 0 1917 1
+9 0 6214 3
+1 0 806 1
+11 0 7856 3
+7 0 2584 5
+10 0 5296 6
+6 0 3142 4
+6 0 1988 5
+203 0 165280 8
+4 0 2104 2
+6 0 3166 3
+8 0 2252 7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+95
+0
+0
+0
+0
+0
+1
+0
+0
+0
+266
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+# End Of Table - urls
+# -sites- (monthly)
+157.55.16.229
+0 2 0 1648 0 0
+-
+222.216.28.145
+0 1 0 228 1 1299817248
+-
+ec2-50-17-65-73.compute-1.amazonaws.com
+0 1 0 228 1 1299223533
+-
+ec2-50-17-32-44.compute-1.amazonaws.com
+0 1 0 228 1 1299152772
+-
+216.83.195.251
+0 193 0 158260 0 0
+-
+baiduspider-220-181-108-85.crawl.baidu.com
+0 1 0 820 0 0
+-
+baiduspider-220-181-108-96.crawl.baidu.com
+0 1 0 820 0 0
+-
+222.216.28.2
+0 2 0 456 2 1299380365
+-
+static-208-80-194-33.as13448.com
+0 1 0 228 1 1299577474
+-
+ec2-174-129-117-237.compute-1.amazonaws.com
+0 3 0 0 3 1299688647
+-
+ks200131.kimsufi.com
+0 1 0 37 0 0
+-
+118.208.95.219.cbj02-home.tm.net.my
+0 1 0 240 1 1299018256
+-
+baiduspider-220-181-108-111.crawl.baidu.com
+0 1 0 820 0 0
+-
+baiduspider-220-181-108-115.crawl.baidu.com
+0 1 0 820 0 0
+-
+static-208-80-194-27.as13448.com
+0 1 0 228 1 1299705926
+-
+bot202.sirketce.com
+0 2 0 1040 1 1299730225
+-
+24-155-176-76.dyn.grandenetworks.net
+0 1 0 240 1 1299748556
+-
+94.63.246.10
+0 1 0 818 1 1298987328
+-
+msnbot-65-52-110-92.search.msn.com
+0 3 0 1888 1 1299478240
+-
+120.156.226.137
+0 1 0 240 1 1299088607
+-
+119.30.45.25
+0 1 0 240 1 1299797461
+-
+173.0.61.144
+0 2 0 1040 1 1299173881
+-
+crawl-66-249-71-10.googlebot.com
+0 6 0 3192 3 1299871519
+-
+crawl-66-249-71-21.googlebot.com
+0 3 0 1300 2 1299381128
+-
+server1.xylemnetworks.com
+0 6 0 4908 0 0
+-
+msnbot-65-52-110-19.search.msn.com
+0 2 0 1064 1 1299701355
+-
+baiduspider-220-181-108-99.crawl.baidu.com
+0 1 0 820 0 0
+-
+211.154.153.5
+0 1 0 818 0 0
+-
+v-2-do14-d525-39.webazilla.com
+0 1 0 240 1 1299776976
+-
+static-208-80-194-26.as13448.com
+0 1 0 228 1 1299058505
+-
+static-208-80-194-37.as13448.com
+0 2 0 456 2 1299483050
+-
+tamo.dfinet.ch
+0 1 0 818 1 1299487228
+-
+206.83.86.2.ptr.us.xo.net
+0 2 0 1064 1 1299199017
+-
+b3091103.crawl.yahoo.net
+0 2 0 1040 1 1299566460
+-
+pro1400.server4you.net
+0 1 0 818 0 0
+-
+spider47.yandex.ru
+0 17 0 9316 7 1299820476
+-
+120.153.10.113
+0 1 0 240 1 1299435277
+-
+124-169-36-195.dyn.iinet.net.au
+0 4 0 2138 1 1299461645
+-
+cpe-069-134-165-241.nc.res.rr.com
+0 1 0 824 1 1299432371
+-
+baiduspider-123-125-71-45.crawl.baidu.com
+0 1 0 240 1 1299116397
+-
+baiduspider-123-125-71-49.crawl.baidu.com
+0 3 0 720 3 1299656197
+-
+static-208-80-194-31.as13448.com
+0 1 0 228 1 1299611775
+-
+211.94.188.52
+0 6 0 4908 1 1299615611
+-
+s15428676.onlinehome-server.info
+0 1 0 240 1 1299360733
+-
+c-p130-uc0303-05.webazilla.com
+0 1 0 240 1 1299342541
+-
+proxy.218.186.8.234.maxonline.com.sg
+0 2 0 480 1 1299886704
+-
+crawl-66-249-72-138.googlebot.com
+0 4 0 2712 1 1299800537
+-
+120.156.255.89
+0 1 0 240 1 1299524100
+-
+195.54.163.122
+0 1 0 228 1 1299582978
+-
+static-208-80-194-36.as13448.com
+0 1 0 228 1 1299221713
+-
+rrcs-96-11-160-230.central.biz.rr.com
+0 2 0 1638 1 1299238762
+-
+bot204.sirketce.com
+0 2 0 1040 1 1299818826
+-
+eripp.com
+0 1 0 240 1 1298966036
+-
+41.74.16.95.dynamic.jazztel.es
+0 1 0 240 1 1299503893
+-
+180.189.155.10
+0 3 0 2428 1 1299782668
+-
+ppp-58-8-247-7.revip2.asianet.co.th
+0 1 0 240 1 1299500797
+-
+81.196.5.119
+0 1 0 240 1 1299433870
+-
+baiduspider-123-125-71-48.crawl.baidu.com
+0 2 0 480 2 1299833708
+-
+c-75-73-31-48.hsd1.mn.comcast.net
+0 1 0 240 1 1299495395
+-
+vicce012.net.gov.bc.ca
+0 1 0 806 1 1299679489
+-
+baiduspider-123-125-71-59.crawl.baidu.com
+0 2 0 480 2 1299549392
+-
+c122-107-138-139.eburwd5.vic.optusnet.com.au
+0 1 0 240 1 1299807431
+-
+static-208-80-194-35.as13448.com
+0 2 0 456 2 1299739916
+-
+81.196.5.160
+0 1 0 240 1 1299080210
+-
+lj910477.crawl.yahoo.net
+0 1 0 812 0 0
+-
+91.208.16.25
+0 1 0 240 1 1299746876
+-
+static-208-80-194-29.as13448.com
+0 3 0 684 3 1299870476
+-
+91.208.16.31
+0 1 0 240 1 1299786564
+-
+115-64-227-76.static.tpgi.com.au
+0 2 0 1648 1 1299512688
+-
+crawl-66-249-67-80.googlebot.com
+0 4 0 2712 2 1299057945
+-
+ec2-50-16-126-216.compute-1.amazonaws.com
+0 1 0 228 1 1299150642
+-
+tmbg.duckduckgo.com
+0 2 0 480 1 1299202185
+-
+ec2-50-17-21-251.compute-1.amazonaws.com
+0 1 0 0 0 0
+-
+64-128-177-3.static.twtelecom.net
+0 2 0 240 2 1299807215
+-
+147.142.248.92.akado-ural.ru
+0 1 0 228 1 1299097601
+-
+blink.ivegotafang.com
+0 2 0 480 1 1299895205
+-
+220.181.94.236
+0 4 0 2128 2 1299825484
+-
+baiduspider-220-181-108-101.crawl.baidu.com
+0 1 0 820 0 0
+-
+www.whois.sc
+0 2 0 1052 1 1299687160
+-
+baiduspider-220-181-108-109.crawl.baidu.com
+0 1 0 820 0 0
+-
+63.84.89.253
+0 1 0 0 1 1299798689
+-
+static-208-80-194-34.as13448.com
+0 1 0 228 1 1299093193
+-
+ec2-50-17-79-236.compute-1.amazonaws.com
+0 1 0 228 1 1299109611
+-
+ppp118-209-34-89.lns20.mel4.internode.on.net
+0 1 0 240 1 1299546155
+-
+lj910209.crawl.yahoo.net
+0 1 0 228 1 1299418658
+-
+baiduspider-123-125-71-108.crawl.baidu.com
+0 1 0 820 0 0
+-
+delineal01.client.microright.com
+0 4 0 2120 1 1298957654
+-
+bas11-montreal02-1128535349.dsl.bell.ca
+0 5 0 2304 1 1299471638
+-
+adsl-70-250-157-131.dsl.austtx.swbell.net
+0 1 0 240 1 1299668741
+-
+222.216.28.93
+0 1 0 228 1 1299521273
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+blink.ivegotafang.com
+0 2 0 480 1 1299895205
+-
+# End Of Table - sites (daily)
+# -referrers- 
+dialoggroup.com/phpMyAdmin-2.6.1-rc2//scripts/setup.php
+1 2
+dialoggroup.com/pma2005//scripts/setup.php
+1 2
+- (Direct Request)
+0 159
+dialoggroup.com/PMA2005//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0-beta1//scripts/setup.php
+1 1
+dialoggroup.com/phpMyAdmin-2.5.5-rc2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.4//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.2-rc1//scripts/setup.php
+1 4
+http://whois.domaintools.com/dialoggroup.com
+1 1
+dialoggroup.com/phpMyAdmin-2.7.0-pl2//scripts/setup.php
+1 2
+http://www.dialoggroup.com/
+1 2
+dialoggroup.com/webadmin//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.6-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.7.0-beta1//scripts/setup.php
+1 2
+dialoggroup.com/mysqlmanager//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.4-pl2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0.4//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.7//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-rc2//scripts/setup.php
+1 2
+dialoggroup.com/php-myadmin//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin2//scripts/setup.php
+1 2
+dialoggroup.com/mysqladmin//scripts/setup.php
+1 4
+dialoggroup.com/phpMyAdmin-2.6.0-alpha//scripts/setup.php
+1 2
+http://www.google.com/search
+0 4
+dialoggroup.com/phpmyadmin2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-beta1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.7.0//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.1-rc1//scripts/setup.php
+1 2
+dialoggroup.com/admin//scripts/setup.php
+1 2
+dialoggroup.com/sqlmanager//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.5-rc1//scripts/setup.php
+1 2
+dialoggroup.com/php-my-admin//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.3//scripts/setup.php
+1 4
+dialoggroup.com/dbase//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.7.0-pl1//scripts/setup.php
+1 2
+dialoggroup.com/pma//scripts/setup.php
+1 4
+dialoggroup.com/PMA//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.4-pl1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0.3//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.6//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.1//scripts/setup.php
+1 2
+dialoggroup.com/phpmy-admin//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.1-pl3//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.2.6//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpadmin//scripts/setup.php
+1 2
+dialoggroup.com/sqlweb//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.3-pl1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.2//scripts/setup.php
+1 2
+dialoggroup.com/phpmyadmin//scripts/setup.php
+1 4
+dialoggroup.com/phpMyAdmin-2.6.0-pl3//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-alpha2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.7-pl1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0.2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.5//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.1-pl2//scripts/setup.php
+1 2
+http://g7.in/13DE.html
+0 3
+dialoggroup.com/p/m/a//scripts/setup.php
+1 2
+http://www..com
+0 1
+dialoggroup.com/scripts/setup.php
+1 2
+http://investorshub.advfn.com/boards/read_msg.aspx
+0 1
+dialoggroup.com/phpMyAdmin-2.6.2-pl1//scripts/setup.php
+1 2
+dialoggroup.com/mysql-admin//scripts/setup.php
+1 2
+dialoggroup.com/phpmanager//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.1//scripts/setup.php
+1 2
+dialoggroup.com/webdb//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-pl2//scripts/setup.php
+1 2
+dialoggroup.com/mysql//scripts/setup.php
+1 4
+dialoggroup.com/phpMyAdmin-2.6.4-pl4//scripts/setup.php
+1 1
+dialoggroup.com/phpMyAdmin-2.8.0.1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.4//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.7.0-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.1-pl1//scripts/setup.php
+1 2
+dialoggroup.com/myadmin//scripts/setup.php
+1 4
+dialoggroup.com/phpMyAdmin-2.6.4-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.5-pl1//scripts/setup.php
+1 2
+http://www.dialoggroup.com/remote
+1 1
+dialoggroup.com/phpMyAdmin-2.6.0//scripts/setup.php
+1 2
+dialoggroup.com/dbadmin//scripts/setup.php
+1 4
+dialoggroup.com/phpMyAdmin-2.6.0-pl1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.5.6-rc2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.4-pl3//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.0-rc2//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.3-rc1//scripts/setup.php
+1 2
+http://g7.in/1407.html
+0 1
+dialoggroup.com/phpMyAdmin-2.6.0-rc3//scripts/setup.php
+1 2
+dialoggroup.com/websql//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.2.3//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.2-beta1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.8.1-rc1//scripts/setup.php
+1 2
+dialoggroup.com/phpMyAdmin-2.6.0-beta2//scripts/setup.php
+1 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 3.5.30729; InfoPath.2; .NET CLR 1.1.4322; MS-
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13
+0 5
+Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+0 2
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3
+0 1
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 17
+Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)
+0 2
+Baiduspider+(+http://www.baidu.com/search/spider.htm)
+0 16
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 3
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.6; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729;
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
+0 3
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Zango 10.0.314.0)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; SIMBAR Enabled; SIMBAR={F845E100-2CF2-4c9a-B1A0-BA381E071900}; FDM)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MRA 4.2 (build 01102); SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)
+0 2
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.1.11) Gecko/20100701 Firefox/3.5.11
+0 2
+Mozilla/5.0 (compatible; Dow Jones Searchbot)
+0 5
+Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/31.0.017; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHT
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 17
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)
+0 2
+ZmEu
+0 6
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+0 4
+businessdbbot/v1.2 (http://www.businessdb.com/bot.php)
+0 4
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Wanadoo 6.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.1)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; HCI0545; HCI0721; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+0 1
+GlobalSpec Link Checker
+0 2
+Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)
+0 2
+Made by ZmEu @ WhiteHat Team - www.whitehat.ro
+0 6
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.1.4322; ZangoToolbar 4.8.2; yplus 5.1.04b)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5
+0 4
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; (R1 1.5); Media Center PC 3.0; .NET CLR 1.0.3705; .NET CLR 2.0.50727;
+0 1
+Sogou-Test-Spider/4.0 (compatible; MSIE 5.5; Windows 98)
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; MSN 2.5; Windows 98; FunWebProducts)
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.A.B.C Safari/525.13
+0 3
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 7
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.2.15) Gecko/20110303 YFF35 Firefox/3.6.15
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; YPC 3.2.0; SpamBlockerUtility 4.7.1)
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.5) Gecko/2008120122 Firefox/3.0.5
+0 1
+Morfeus Fucking Scanner
+0 2
+Mozilla/5.0 (compatible; MJ12bot/v1.3.3; http://www.majestic12.co.uk/bot.php?+)
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; RCP000.009.00510/4adaf590ad22f4ea21d84108a0c3a998)
+0 1
+BlackBerry9700/5.0.0.344 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/146
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; {6B980E38-88BA-9E38-EC11-3D790BF078D7}; .NET CLR 1.1.4322)
+0 1
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.3
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13
+0 1
+Toata dragostea mea pentru iEdi
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 5.0; de-DE; rv:1.9.2.6) Gecko/20573454 Firefox/3.5.6
+0 94
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; iebar; acc=; MEGAUPLOAD 1.0; .NET CLR 1.1.4322)
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19
+0 2
+Mozilla/5.0 (compatible; ERIPPbot; +http://eripp.com)
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 5
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; {3A1D666A-49FA-4F8B-BAB3-B37EC201DCF0}; SV1)
+0 1
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+0 2
+example/1.0
+0 4
+NextGenSearchBot 1 (for information visit http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx)
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.6) Gecko/20100625 Firefox/3.6.6
+0 96
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.5.30729; .N
+0 1
+# End Of Table - agents
+# -search strings- 
+dialoggroup.com
+2
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

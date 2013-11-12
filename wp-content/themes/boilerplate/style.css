@@ -1155,7 +1155,7 @@ span.lighter-grey-button {
     margin-left: 6px;
 }
 
-#linkedin{
+#facebook{
     width: 22px;
     height: 22px;
     float: left;
@@ -1164,7 +1164,7 @@ span.lighter-grey-button {
     margin-left: 6px;
 }
 
-#facebook{
+#linkedin{
     width: 22px;
     height: 22px;
     float: left;
@@ -1177,11 +1177,11 @@ span.lighter-grey-button {
 background-position: 0px 0px;
 }
 
-#linkedin:hover{
+#facebook:hover{
 background-position: 22px 0px;
 }
 
-#facebook:hover{
+#linkedin:hover{
 background-position: 44px 0px;
 }
 
@@ -1328,14 +1328,14 @@ div.timer {
     margin-top: 30px;
 }
 .carousel-headline {
-    font-family: hvnStd_UltLt, "Monaco";
+    font-family: hvnStd_UltLt;
     font-weight: 400;
     letter-spacing: 0.060em;
     color: #3d3d3d;
     font-size: 38px;
 }
 .carousel-subheading {
-    font-family: hvnStd_Thin, "Monaco";
+    font-family: hvnStd_Thin;
     letter-spacing: 0.040em;
     color: #464e52;
     font-size: 18px;
@@ -1442,10 +1442,10 @@ div.timer {
     padding-left: 180px;
 }
 #internal-main-content {
-    float: right;
+    float: left;
     width: 552px;
-    padding-top: 10px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 #internal-main-content b {
     font-weight: bold;
@@ -1462,17 +1462,18 @@ div.timer {
     color: #5197b4;
     font-family: hvnStd_LiteCn;
     font-size: 20pt;
-    padding-top: 25px;
+    padding-top: 10px;
     letter-spacing: .04em;
 }
 #internal-main-content p {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 #internal-main-nav {
     float: left;
     width: 140px;
+    padding-left: 20px;
     padding-top: 40px;
-    padding-right: 40px;
+    padding-right: 10px;
     padding-bottom: 40px;
 }
 #internal-main-nav > ul > li > a {
@@ -1499,7 +1500,6 @@ div.timer {
 #internal-sidebar {
   float: right;
   width: 262px;
-  background-color: #ebeae6;
   height: 100%;
 }
 #internal-sidebar-detour-link {

@@ -56,9 +56,11 @@ get_header(); ?>
           <a href="<?php the_field('detour_link_page'); ?>"><span class="lighter-grey-button"><?php the_field('detour_link_cta'); ?></span></a>
         </div>
         <?php } ?>
-        <div id="internal-sidebar-decoration">
-          <?php //put a fancy geometry background here ?>
-        </div>
+        <?php if(get_field('custom_html')){ ?>
+          <div id="internal-sidebar-custom">
+            <?php the_field('custom_html'); ?>
+          </div>
+        <?php } ?>
       </aside>
       <?php } ?>
     </div>
